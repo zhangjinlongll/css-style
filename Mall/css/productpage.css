@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*分页*/
+.page {height:50px;}
+.page em{ font-style:normal;}
+.page .p-wrap { float:right;}
+.page .p-num {float: left;}
+.page .p-num .pn-next.disabled, .page .p-num .pn-prev.disabled {
+    background:#eee;
+    cursor: default;
+	color:#999;
+}
+.page .p-num .pn-next.disabled:hover, .page .p-num .pn-prev.disabled:hover{
+    background:#eee;
+    cursor: default;
+	border: 1px solid #bbbaba;
+	 color:#999;
+}
+.page .p-num .pn-next.disabled:hover i, .page .p-num .pn-prev.disabled:hover i{color:#999;}
+.page .p-num .pn-next:hover, .page .p-num .pn-prev:hover{
+	color:#e16426;
+  border: 1px solid #bbbaba;
+}
+.page .p-num a {
+    color: #999;
+    border: 1px solid #bbbaba;
+	height:48px;
+	line-height:48px;
+	background-color:#fff;
+}
+.page .p-num a:hover{ color:#e16426; background-color:#ededed;}
+.page .p-num a, .page .p-num b {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 17px;
+	margin-left:-1px;
+    font-size: 22px;
+}
+.page .p-num a.curr {
+    border: 1px solid #bbbaba;
+    color:#999;
+	background-color:#ededed;
+    cursor: default;
+}
+.page .p-num .pn-break {
+    color: #4a4a4a;
+}
+.page .p-num .pn-next i {
+    padding-right: 0px;
+}
+.page .p-num .pn-next i, .page .p-num .pn-prev i {
+    vertical-align: middle;
+    font-style: normal;
+    font-size: 16px;
+    font-family: "宋体";
+    padding: 0px 5px;
+    color: #999;
+}
+.page .p-num .pn-next:hover i, .page .p-num .pn-prev:hover i {
+    color: #e16426;
+}
+.page .p-skip {
+    float: left;
+    margin-left: 8px;
+	display:inline;
+	color:#666;
+}
+.page .p-skip em {
+    float: left;
+    line-height: 50px;
+    font-size: 18px;
+	font-weight:normal;
+}
+.page .p-skip .input-txt {
+    float: left;
+    width: 50px;
+    height:36px;
+    margin:7px 5px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+	background-color:#fff;
+	border:1px solid #b3b3b3;
+}
+.page .p-skip .btn {
+    float: left;
+    width: 55px;
+    height:36px;
+     margin:7px 5px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+	background-color:#f1f1f1;
+	border:1px solid #b3b3b3;
+	margin-left:10px;
+}

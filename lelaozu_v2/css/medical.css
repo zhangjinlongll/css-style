@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* 医疗服务首页 */
+.m-top{ padding:15px 0; height:58px;}
+.m-top .m-logo{ width:70px; height:58px; float:left; margin-right:12px;}
+.m-top .m-name{ width:120px; float:left; margin-top:23px; height:35px; line-height:35px; font-size:30px; color:#3b95d3; font-weight:normal; margin-right:30px;}
+.m-top .m-nav{ width:640px; float:left; height:40px; margin-top:20px; font-size:20px;}
+.m-nav li{ float:left; display:inline; height:40px; }
+.m-nav li a{ padding:0 16px;line-height:40px; color:#3b3b3b; height:40px; display:block;}
+.m-nav li a.on{ color:#fff; background-color:#ff0000; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.m-nav li a:hover{ color:#ff0000;}
+.m-nav li a.on:hover{ color:#fff;}
+.m-top .m-wellcome{ width:240px; float:right; margin-top:20px; height:40px; line-height:40px; color:#0073f0; font-size:22px;}
+.m-top .m-wellcome .exit-btn{ display:inline-block; margin-top:5px; height:28px; line-height:28px; border:1px solid #7e5009; background-color:#a3690f; color:#fff;border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; width:60px; text-align:center; margin-left:15px;}
+.m-banner{ width:100%; height:208px; background:url(../images/medical_banner.png) no-repeat top center;}
+.m-doctor{ height:305px; background-color:#fffee9;}
+.m-doctor .index-doctor{ width:1120px; margin:0 auto; padding-top:10px;}
+.m-doctor .my-doctor{ width:410px; height:295px; float:left; margin-right:95px;}
+.m-doctor .doctor-tit{ width:100%; height:50px; line-height:50px; border-bottom:1px solid #d2d2d2;}
+.m-doctor .doctor-tit h1{ font-size:26px; font-weight:normal; width:200px; float:left; color:#585858; height:50px;}
+.m-doctor .doctor-tit .tit-more{ float:right; width:100px; text-align:right; height:50px; font-size:24px;}
+.tit-more a{color:#a61313;}
+.my-doctor .doctor-list{ margin-top:10px; width:170px; height:245px; position:relative; margin:0 120px;}
+.my-doctor .doctor-list .move-prev{ display:block; width:32px; height:32px; left:-120px; top:70px; background:url(../images/medical_icon.png) no-repeat 0 0; position:absolute;}
+.my-doctor .doctor-list .move-prev:hover{background:url(../images/medical_icon.png) no-repeat 0 -35px;}
+.my-doctor .doctor-list .move-next{ display:block; width:32px; height:32px; right:-120px; top:70px; background:url(../images/medical_icon.png) no-repeat -38px -35px; position:absolute;}
+.my-doctor .doctor-list .move-next:hover{background:url(../images/medical_icon.png) no-repeat -38px 0;}
+.my-doctor .doctor-list .doctorlbBox{ width:170px; height:245px; overflow:hidden;}
+.my-doctor .doctor-list .doctorlb{ width:1700px; height:245px;}
+.my-doctor .doctor-list .doctorlb li{ width:170px; float:left; display:inline;height:245px; text-align:center; line-height:32px; color:#909090; font-size:24px; overflow:hidden;}
+.my-doctor .doctor-list .doctor-photo{ width:108px; height:108px; border:1px solid #cbcbcb; border-radius:55px; -moz-border-radius:55px; -webkit-border-radius:55px; margin-bottom:5px; margin-top:10px;}
+.doctor-list .online-call{ display:inline-block; width:117px; height:37px;margin-top:5px; margin-left:30px;}
+.doctor-list .online-call span{ float:left; display:inline-block;}
+.doctor-list .online-call .call-btn{display:inline-block; width:77px; height:29px; padding-bottom:8px; line-height:29px; text-align:center; color:#fff; font-size:20px; background:url(../images/medical_icon.png) no-repeat -104px -40px;}
+.doctor-list .online-call .call-btn:hover{background:url(../images/medical_icon.png) no-repeat -104px 0;}
+.doctor-list .online-call .online-state{font-size:16px; color:#f6113c; line-height:22px; width:40px; text-align:right; margin-top:6px;}
+.m-doctor .online-register{ width:172x; height:172px; margin-top:40px; float:left;}
+.online-register .register-btn{ width:170px; height:136px; border:1px dashed #3b95d3; background-color:#fffef3;border-radius:87px; -moz-border-radius:87px; -webkit-border-radius:87px; font-size:44px; color:#3b95d3; text-align:center; display:block; line-height:50px; padding-top:34px;}
+.online-register .register-btn:hover{ background-color:#3b95d3; color:#fff;}
+.m-doctor .bd-doctor{ width:380px; float:right; height:295px;}
+.bd-doctor .bd-account{ margin-top:15px; height:40px; line-height:40px; color:#909090; font-size:24px; padding-left:36px; position:relative;}
+.bd-doctor .bd-account .ys-icon{ position:absolute; width:24px; height:24px; left:0; top:8px; display:block; background:url(../images/medical_icon.png) no-repeat -75px 0;}
+.bd-doctor .add-doctor{ margin-top:35px; text-align:center; height:42px;}
+.bd-doctor .add-doctor-btn{ display:inline-block; width:152px; height:42px; line-height:42px; text-align:center; font-size:24px;  color:#fff; background-color:#3b95d3;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.bd-doctor .add-doctor-btn:hover{ color:#fff; background-color:#338dcb;}
+.bottom-bj{ padding-bottom:30px;}
+.medical-records{ margin-top:15px; width:750px; margin-right:40px; float:left;}
+.medical-records .record-tit{ width:100%; height:50px; line-height:50px; border-bottom:1px solid #21aff1;}
+.record-tit h1{ font-size:26px; font-weight:normal; width:200px; float:left; color:#585858; height:50px;}
+.record-tit .tit-more{ float:right; width:100px; text-align:right; height:50px; font-size:24px;}
+.record-tit .tit-more a{ color:#157ad0;}
+.medical-records .record-list{ width:100%;color:#2a2a2a; font-size:20px; overflow:hidden;}
+.medical-records .record-list td{ text-align:center; height:72px; line-height:72px; border-bottom:1px solid #eee;}
+.medical-records .record-list td.jl-bt{height:50px; line-height:50px;background-color:#e2f3ff;}
+.medical-records .record-list .detail-btn{ display:inline-block; width:85px; height:36px; line-height:36px; text-align:center; color:#fff; background-color:#21aff1;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.medical-records .record-list .detail-btn:hover{ background-color:#1ba7e8;}
+.health-news{ margin-top:24px; width:330px; float:right;}
+.health-news .news-tit{ width:100%; height:36px; padding-bottom:5px; border-bottom:2px solid #52ba54; position:relative; text-align:center; background:url(../images/health_news_titpic.png) no-repeat top center;}
+.health-news .news-tit .tit-arrow{ width:21px; height:10px; position:absolute; bottom:-10px; left:155px; display:block; background:url(../images/medical_icon.png) no-repeat -75px -35px;}
+.health-news .news-list{ width:330px; overflow:hidden;}
+.health-news .news-list li{ padding-left:20px; height:54px; line-height:54px; width:310px; overflow:hidden; white-space:nowrap;text-overflow:ellipsis; font-size:20px; background:url(../images/news_icon.png) no-repeat left center;}
+.health-news .news-list li a{ color:#3b3b3b;}
+.health-news .news-list li a:hover{ color:#52ba54;}
+.health-news .morenews{ text-align:center; font-size:24px; margin-top:15px;}
+/*就医记录*/
+.mRecords{ padding:10px 0 50px 0; position:relative;}
+.mRecords .mTit{ height:50px; line-height:50px; border-bottom:1px solid #79b4ec; color:#2a2a2a; font-size:26px; font-weight:normal;}
+.mRecords .mTit2{ height:50px; line-height:50px; color:#2a2a2a; font-size:26px; font-weight:normal; padding-left:32px; background:url(../images/doctor_titbg.png) no-repeat left center; margin:10px 0 20px 0;}
+.mRecords .mTit2 span{ color:#999; font-size:18px; padding-left:20px;}
+.mRecords .mSearch{ padding:20px 0 0 10px; overflow:hidden;font-size:16px; color:#666; position:relative;}
+.mRecords .mSearch .searchDoctor{ width:285px; height:30px; position:absolute; right:20px; top:20px;}
+.mSearch .searchDoctor span{ float:left; display:inline-block;}
+.mSearch .searchDoctor  .name-input{ width:173px; height:28px; line-height:28px; padding:1px 0 1px 35px; font-size:14px; border:0px none; background:url(../images/medicalsearch_inputbg.gif) no-repeat;}
+.mSearch .searchDoctor .tjBtn{ width:72px; height:30px; line-height:28px; text-align:center;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background-color:#3b95d3; border:0px none; font-size:16px; color:#fff; margin-left:5px;}
+.mSearch ul li{padding-bottom:20px; height:32px; line-height:32px; vertical-align:middle;}
+.mSearch span{ float:left; display:inline-block;}
+.mSearch .time-input{ width:100px; height:30px; border:1px solid #9e9e9e;background-color:#fff; font-size:16px; font-family:"Microsoft Yahei"; line-height:30px; padding-left:5px;}
+.mSearch .time-input:focus{border:1px solid #2d8ce5;}
+.mSearch .time-xz{ padding-left:50px;}
+.mSearch .time-xz a{ color:#333; margin-right:20px;}
+.mSearch .time-xz a:hover,.trade-search .time-xz a.on{ color:#44a9f1;}
+.mSearch .mSort{ margin-top:2px; height:32px;}
+.mSearch .mSort a{ height:32px; line-height:31px; color:#333; margin-right:30px; display:inline-block;}
+.mSearch .mSort a:hover,.mSearch .mSort a.on{ color:#2d8ce5;}
+/*我的医生*/
+.mRecords .mRecordList{ width:100%; padding-bottom:45px; overflow:hidden; font-size:20px; color:#2a2a2a;}
+.mRecords .mRecordList th{ background-color:#e8e8e8; height:50px; line-height:50px; text-align:center; border-bottom:1px solid #cbcbcb; font-weight:normal;}
+.mRecords .mRecordList td{border-bottom:1px solid #cbcbcb; text-align:center; height:76px; line-height:76px;}
+.mRecords .mRecordList .detail-btn{ display:inline-block; width:85px; height:36px; line-height:36px; text-align:center; color:#fff; background-color:#21aff1;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.mRecords .mRecordList .detail-btn:hover{ background-color:#1ba7e8;}
+.mRecords .doctorList{ width:100%; padding-bottom:45px; overflow:hidden;}
+.mRecords .doctorList li{ width:548px; border:1px solid #b7b7b7; padding-top:17px; height:370px; float:left; margin:0 20px 20px 0; font-size:20px;}
+.mRecords .doctorList li.none-bj{ margin-right:0;}
+.mRecords .doctorList .docInfo{ padding:0 20px; height:214px; border-bottom:1px dotted #b7b7b7;}
+.doctorList .docInfo .doctor-state{ width:32px; font-size:16px; line-height:24px; float:left; font-size:16px;color:#e83750;}
+.doctorList .docInfo .doctorxx{ width:220px; color:#909090; float:left; overflow:hidden; margin-top:5px;}
+.doctorList .docInfo .doctorxx p{text-align:center; margin-bottom:10px;}
+.doctorList .docInfo .doctorxx p.doctor-photo{ width:108px; height:108px; display:block; margin:0 56px 10px 56px; background:url(../images/doctor_online.png) no-repeat;}
+.doctorList .docInfo .doctorFee{ width:180px; float:right; overflow:hidden;}
+.docInfo .doctorFee .serviceStyle{ margin-left:45px; width:90px; height:42px; line-height:42px; text-align:center; border-radius:20px; -moz-border-radius:20px;-webkit-border-radius:20px; color:#fff; background-color:#3b95d3;}
+.docInfo .doctorFee .serviceFee{ width:158px; border:1px dotted #b2b2b2; padding:0 10px; position:relative; margin-top:16px;}
+.docInfo .doctorFee .serviceFee p{ border-bottom:1px solid #b2b2b2; padding:5px 0; line-height:20px; color:#909090; font-size:14px;}
+.docInfo .doctorFee .serviceFee i{ width:13px; height:11px; display:block; position:absolute; left:80px; top:-11px; background:url(../images/mydoctor_sprite.png) no-repeat -120px -61px;}
+.mRecords .doctorList .docHandle{ width:100%; height:155px;}
+.mRecords .doctorList .docHandle dd{ width:137px; height:155px; float:left;}
+.mRecords .doctorList .docHandle dd p{ text-align:center;}
+.mRecords .doctorList .docHandle .handleIcon{ width:59px; height:59px; margin:20px 39px 15px 39px; display:block;}
+.mRecords .doctorList .docHandle .detailBtn{ display:block;width:59px; height:59px; background:url(../images/mydoctor_sprite.png) no-repeat 0 0;}
+.mRecords .doctorList .docHandle .detailBtn:hover{background:url(../images/mydoctor_sprite.png) no-repeat -248px -61px;}
+.mRecords .doctorList .docHandle .jbBtn{ display:block;width:59px; height:59px; background:url(../images/mydoctor_sprite.png) no-repeat 0 -61px;}
+.mRecords .doctorList .docHandle .jbBtn:hover{background:url(../images/mydoctor_sprite.png) no-repeat -248px 0;}
+.mRecords .doctorList .docHandle .jbBtn-not{background:url(../images/mydoctor_sprite.png) no-repeat -60px 0; cursor:default;}
+.mRecords .doctorList .docHandle .jbBtn-not:hover{background:url(../images/mydoctor_sprite.png) no-repeat -60px 0; cursor:default;}
+.mRecords .doctorList .docHandle .payBtn{ display:block;width:59px; height:59px; background:url(../images/mydoctor_sprite.png) no-repeat -120px 0;}
+.mRecords .doctorList .docHandle .payBtn:hover{ cursor:default;}
+.mRecords .doctorList .docHandle .byBtn{ display:block;width:59px; height:59px; background:url(../images/mydoctor_sprite.png) no-repeat -60px -61px;}
+.mRecords .doctorList .docHandle dd.callBtn{ background-color:#7eb31f; cursor:pointer;}
+.mRecords .doctorList .docHandle dd.callBtn a{ width:60px; height:101px; margin:20px 38px 34px 39px; background:url(../images/mydoctor_sprite.png) no-repeat -180px 0; display:block;}
+.mRecords .doctorList .docHandle dd a,.mRecords .doctorList .docHandle dd a:hover{ color:#6f6f6f;}
+.doctorList li.offline .docInfo .doctor-state{color:#6b6b6b;}
+.doctorList li.offline .docInfo .doctorxx p.doctor-photo{background:url(../images/doctor_offline.png) no-repeat;}
+.mRecords .doctorList li.offline .docHandle dd.callBtn{ background-color:#c7c7c7; cursor:default;}
+/*绑定医生*/
+.mRecords .mTit2{ height:50px; line-height:50px; color:#2a2a2a; font-size:26px; font-weight:normal; padding-left:32px; background:url(../images/doctor_titbg.png) no-repeat left center; margin:10px 0 20px 0;}
+.mRecords .mTit3{ height:50px; line-height:50px; color:#2a2a2a; font-size:26px; font-weight:normal; padding-left:32px; background:url(../images/bindingdoctor_tit.gif) no-repeat left 15px; margin:10px 0 20px 0;}
+.mRecords .mTit3 span{ color:#999; font-size:18px; padding-left:20px;}
+.mRecords .ssDoctor{ width:1120px; height:53px;}
+.mRecords .ssDoctor span{ float:left; display:inline-block;}
+.mRecords .ssDoctor .ssInput{border:1px solid #3b95d3; height:51px; line-height:51px; padding-left:10px; width:943px; font-size:20px;}
+.mRecords .ssKeyword{ height:45px; line-height:45px; font-size:20px; width:100%; overflow:hidden;}
+.mRecords .ssKeyword a{ margin-right:25px; color:#a0a0a0;}
+.mRecords .ssDoctor .ssSubmit{ width:165px; height:53px; border:0px none; font-size:0; text-indent:-99999px; background:url(../images/searchdocter_btn.gif) no-repeat; cursor:pointer;}
+.mRecords .doctorNav{ height:51px; border:1px solid #3b95d3; line-height:51px; background:url(../images/doctor_navbg.gif) repeat-x; margin:10px 0; font-size:22px;}
+.mRecords .doctorNav li{ padding:0 16px; height:51px; float:left;}
+.mRecords .doctorNav li.line{ width:2px; padding:0; margin-top:13px; height:24px; background:url(../images/doctornav_line.gif) no-repeat;}
+.mRecords .doctorNav li a{ color:#fff;}
+.mRecords .doctorNav li a:hover{ color:#fff; text-decoration:underline;}
+.mRecords .ysList{ width:1120px; padding-bottom:50px; overflow:hidden; font-size:20px;}
+.mRecords .ysList li{ width:318px; border:1px solid #b7b7b7; padding:20px; overflow:hidden; margin:0px 20px 20px 0; float:left;}
+.mRecords .ysList li.nonebj{ margin-right:0;}
+.ysList .ysInfo{ height:108px; width:318px; margin-bottom:25px;}
+.ysList .ysInfo .ysPhoto{ width:108px; height:108px; margin-right:16px; float:left;}
+.ysList .ysInfo .ysName{ width:194px; height:108px; float:left; color:#909090; line-height:40px; margin-top:7px; overflow:hidden;}
+.ysList .ysFee{ width:318px; height:90px; padding-bottom:25px; border-bottom:1px dotted #b7b7b7;}
+.ysList .ysFee .ysFee-tit{ margin-top:20px; width:85px; height:42px; line-height:42px; text-align:center; border-radius:20px; -moz-border-radius:20px;-webkit-border-radius:20px; color:#fff; background-color:#ff7070; float:left; margin-right:25px;}
+.ysList .ysFee .ysFee-detail{ width:176px; border:1px dotted #ff7070; padding:0 4px; position:relative; height:80px; padding-left:18px; float:left;}
+.ysList .ysFee .ysFee-detail p{line-height:40px; color:#ff7070; font-size:24px; height:80px; width:176px; overflow:hidden;}
+.ysList .ysFee .ysFee-detail i{ width:13px; height:15px; display:block; position:absolute; left:-13px; top:30px; background:url(../images/mydoctor_sprite.png) no-repeat -136px -61px;}
+.ysList .ysHandle{ padding:25px 0 0 7px; height:50px; line-height:50px;}
+.ysList .ysHandle a{ width:115px; height:50px; display:inline-block;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; font-size:20px; color:#fff; text-align:center;}
+.ysList .ysHandle a.bdBtn{ background-color:#ef4343; margin-right:70px;}
+.ysList .ysHandle a.bdBtn:hover{ background-color:#de3131;}
+.ysList .ysHandle a.xqBtn{ background-color:#3b95d3;}
+.ysList .ysHandle a.xqBtn:hover{ background-color:#2f88c5;}
+/*弹出框*/
+.refundPopWrap { width: 100%; height: 100%; position: absolute; z-index: 9999999; display: none; top: 0; left: 0; }
+.refundPopWrap .refundPopbg { width: 100%; height: 100%; background: #000; opacity: 0.4; -moz-opacity: 0.4; filter: alpha(opacity=40); z-index: 9999900; position: absolute; left: 0; top: 0; }
+.refundPopWrap .refundPopBox { position: absolute; box-shadow: 0 0 2px #309eeb; -moz-box-shadow: 0 0 2px #309eeb; -webkit-box-shadow: 0 0 2px #309eeb; z-index: 9999999; }
+.refundPopBox .PopContent { width: 100%; height: 100%; position: relative; z-index: 9999990; }
+.refundPopBox .PopContent .PopContentbg { position: absolute; width: 100%; height: 100%; z-index: 9999905; background: #fff; opacity: 0.3; -moz-opacity: 0.3; filter: alpha(opacity=30); }
+.refundPopBox .PopContent .PopContentBox { position: relative; z-index: 9999990; padding: 15px; }
+.PopContentBox .popup-txt { background-color: #fff; border: 1px solid #918b8b; width: 100%; height: 100%; }
+.popup-txt .popupTitle { height: 50px; line-height: 50px; padding-left: 20px; background-color: #f6f6f6; position: relative; }
+.popup-txt .popupTitle span { font-size: 22px; color: #333; }
+.popup-txt .popupTitle .closePopBtn { display: block; position: absolute; top: 10px; right: 20px; width: 30px; height: 30px; background: url(../images/mydoctor_sprite.png) no-repeat -345px 0; }
+.popup-txt .popupTitle .closePopBtn:hover { background-position: -312px 0; }
+.popup-txt .byCon { padding:20px 0 38px 0; height:125px;}
+.popup-txt .byCon .byTips{ margin-left:320px; padding-left:38px; color:#555; font-size:24px; background:url(../images/doctor_tipsbtn.gif) no-repeat left center;}
+.popup-txt .byCon .byCz{ margin-top:50px; height:46px; text-align:center;}
+.popup-txt .byCon .byCz a{ display:inline-block; width:85px; height:44px; line-height:44px;text-align:center; font-size:22px; color:#fff;}
+.popup-txt .byCon .byCz a.agreeBtn{ background-color:#ff8a00; margin-right:130px; border:1px solid #cd6f00; }
+.popup-txt .byCon .byCz a.agreeBtn:hover{ background-color:#eb8206;}
+.popup-txt .byCon .byCz a.noBtn{ background-color:#0095fe; border:1px solid #0074c5;}
+.popup-txt .byCon .byCz a.noBtn:hover{ background-color:#0a86dd;}
+.popup-txt .bdSuccess{ margin:60px 0 0 290px; height:52px; line-height:52px; padding-left:65px; font-size:24px; background:url(../images/bddoctor_icon.gif) no-repeat left center;}
+/*医生详情*/
+.doctor-d-con{ width:915px;background-color:#fff; overflow:hidden;}
+.doctor-d-con .jh-d-tit{ height:72px; line-height:72px; background:url(../images/doctor_d_tit.gif) repeat-x; font-size:36px; color:#fff; padding-left:38px; position:relative;}
+.jh-d-tit .jh-d-close{ width:45px; height:45px; display:block; position:absolute; right:30px; top:13px; background:url(../images/doctor_closebtn.gif) no-repeat;}
+.jh-d-tit .jh-d-close:hover{ background:url(../images/doctor_closebtn_hover.gif) no-repeat;}
+.doctor-d-con .jh-d-con{ padding:25px 20px; overflow:hidden;}
+.jh-d-con .jhr-photo{ width:160px; float:left; margin-right:20px;}
+.jh-d-con .jhr-photo p{ text-align:center; margin-bottom:17px;}
+.jh-d-con .jhr-photo p img{ margin-bottom:10px;}
+.jh-d-con .jhr-photo .jb-submit{ display:inline-block; width:105px; height:32px; line-height:32px; text-align:center; background-color:#2ecdb8; font-size:24px; color:#fff;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+.jh-d-con .jhr-photo .jb-submit:hover{ color:#fff; background-color:#15a18f;}
+.jh-d-con .jhr-photo .fy{ width:160px;overflow:hidden;}
+.jhr-photo .fy .fyTit{ margin-left:35px; width:90px; height:42px; line-height:42px; text-align:center; border-radius:20px; -moz-border-radius:20px;-webkit-border-radius:20px; color:#fff; background-color:#3b95d3; font-size:20px;}
+.jhr-photo .fy .fyDetail{ width:152px; border:1px dotted #b2b2b2; padding:0 3px; position:relative; margin-top:15px;}
+.jhr-photo .fy .fyDetail p{ border-bottom:1px solid #b2b2b2; padding:5px 0; line-height:32px; color:#909090; font-size:20px; margin-bottom:0;}
+.jhr-photo .fy .fyDetail i{ width:13px; height:11px; display:block; position:absolute; left:75px; top:-11px; background:url(../images/mydoctor_sprite.png) no-repeat -120px -61px;}
+.jh-d-con .jhr-xx{ width:685px; float:left; position:relative; color:#333;}
+.jhr-xx .xx-record{width:160px; overflow:hidden; position:absolute; right:80px; top:10px; height:58px;}
+.jhr-xx .xx-record a{ display:block;width:160px; height:58px; line-height:58px; text-align:center; color:#fff; background-color:#7eb31f; font-size:30px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.jhr-xx .xx-record a:hover{background-color:#72a516;}
+.jhr-xx .serviceDescription{ position:absolute; right:-10px; top:110px; width:376px; padding:5px 12px; line-height:40px; font-size:20px; box-shadow:0 2px 2px #c2c2c2; -moz-box-shadow:1px 2px 2px #c2c2c2; -webkit-box-shadow:1px 2px 2px #c2c2c2;}
+.jhr-xx .zh-xx{ font-size:30px; padding-bottom:5px;}
+.jhr-xx .jh-info{ width:685px; line-height:45px; font-size:26px; margin-bottom:1px; overflow:hidden;}
+.jh-info .jh-info-l{ width:150px; float:left; margin-right:15px; height:45px; text-align:right; background-color:#f1f1f1; padding-right:10px;}
+.jh-info .jh-info-r{ width:510px; float:right;}
+.jh-info-r .check-map{ margin-top:10px; width:140px; height:38px;}
+.jh-info-r .checkbtn{ display:block; width:140px; height:38px; background-color:#2eadcd; display:block; text-align:center; line-height:38px; font-size:26px; color:#fff; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.jh-info-r .checkbtn:hover{ color:#fff; background-color:#22a2c2;}
+/*在线挂号*/
+.mRecords .position{ padding-top:5px; height:55px; line-height:55px; font-size:24px;color:#595959; width:100%; overflow:hidden;}
+.mRecords .position a{ color:#595959;}
+.mRecords .registration{ width:1120px;}
+.mRecords .registration-l{ width:816px; float:left;}
+.registration-l .keywordSearch{ width:816px; height:38px;}
+.registration-l .keywordSearch input{ width:800px; padding-left:10px; border:1px solid #d3d3d3; border-left:5px solid #3b95d3; height:36px; line-height:36px; font-size:20px;}
+.registration-l .cityList{ width:100%; overflow:hidden;}
+.registration-l .cityList dl{ margin-top:15px; width:100%; overflow:hidden;}
+.registration-l .cityList dl dt{ color:#575757; font-size:28px; border-bottom:1px solid #d3d3d3; color:#575757; padding-left:15px; line-height:40px;}
+.registration-l .cityList dl dd{ font-size:20px; line-height:40px; width:100%;}
+.registration-l .cityList dl dd a{ padding:0 10px;white-space:nowrap; display:inline-block;}
+.mRecords .registration-r{ width:246px; float:right; overflow:hidden; border:1px solid #d3d3d3; padding:0 15px;}
+.mRecords .registration-r .flowTit{ border-bottom:1px solid #d3d3d3; color:#3b95d3; height:40px; line-height:40px; font-size:20px;}
+.registration-r .flowCon{ padding:60px 0;}
+.registration-r .flowCon li{ margin-left:113px; width:20px; height:74px; position:relative; background:url(../images/flowchart.gif) no-repeat; vertical-align:middle;}
+.registration-r .flowCon li .wz1{ left:30px; top:-5px;color:#575757; font-size:20px; width:116px; line-height:30px; position:absolute; overflow:hidden; white-space:nowrap;text-overflow:ellipsis;}
+.registration-r .flowCon li .wz2{ right:30px; top:-5px;color:#575757; font-size:20px;width:116px; line-height:30px;position:absolute; text-align:right;}
+.registration-r .flowCon li .wz3{ right:30px; top:-20px;color:#575757; font-size:20px;width:116px; line-height:30px;position:absolute;text-align:right;}
+.registration-r .flowCon li.cur{background:url(../images/flowchart_hover.gif) no-repeat;}
+.registration-r .flowCon li.last{ height:14px;}
+.registration-r .flowCon li.last.cur{ height:20px;}
+.registration-l .cityList dl dt.ks{ font-size:22px;}
+.registration-l .quick{ border:1px solid #d3d3d3; padding:5px 25px 35px 25px; margin-bottom:20px;}
+.registration-l .quickTit{ color:#3b95d3; font-size:24px; margin-bottom:25px; height:34px; line-height:34px;}
+.registration-l .quickTit span{ float:left; display:inline-block;}
+.registration-l .quickTit .hospitalLevel{ width:70px; height:22px; line-height:22px; margin:6px 0 6px 20px; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; color:#fff; background-color:#ff8400; font-size:14px; text-align:center;}
+.registration-l .quick .quickList li{ width:310px; height:42px; line-height:42px; vertical-align:middle; float:left; margin-bottom:35px;}
+.registration-l .quickList li span{ float:left; display:inline-block; margin-right:20px;}
+.registration-l .quickList li .quickbt{ width:88px; text-align:right; line-height:42px; color:#7e7e7e; font-size:24px;}
+.registration-l .quickList li select{ height:42px; line-height:42px; padding-left:5px; width:180px;}
+.registration-l .quick .ghBtn{ width:100%; margin-top:25px; height:45px; text-align:center;}
+.registration-l .quick .ghBtn a{ display:inline-block; width:240px; height:45px; line-height:45px; text-align:center; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background-color:#faa732; color:#fff; font-size:24px;}
+.registration-l .quick .ghBtn a:hover{ color:#fff; background-color:#fb9506;}
+.registration-l .quick .hospitalInfo{ width:764px; height:170px; margin-top:20px;}
+.quick .hospitalInfo .hospitalPic{ width:190px; margin-right:20px; height:170px; float:left;}
+.quick .hospitalInfo .hospitalPic img{ width:190px; height:170px;}
+.quick .hospitalInfo .hospitalTxt{ width:550px; float:left; height:170px;line-height:26px; font-size:20px; }
+.quick .hospitalInfo .hospitalItem{ width:490px; color:#383838; padding-left:60px; margin-bottom:5px;}
+.quick .hospitalInfo .hospitalItem .hospitalBt{ float:left; width:60px; line-height:26px; margin-left:-60px;}
+.quick .department{width:664px; height:310px;padding-left:100px;line-height:48px; color:#656565; overflow:hidden; font-size:20px;}
+.quick .department .departmentName{ float:left; width:100px; margin-left:-100px; line-height:48px; color:#16820e; font-size:24px;}
+.mRecords .registration .doctorLb{ margin-top:20px; position:relative; width:1120px;}
+.registration .doctorLb .mz{ position:absolute; left:0; top:-40px; font-size:24px;}
+.registration .doctorLb .lbCon li{ padding:15px 0 20px 0; width:1120px; height:140px; border-top:1px solid #d3d3d3; vertical-align:middle;}
+.registration .doctorLb .ysxx{ width:653px; float:left; border-right:2px solid #d3d3d3; height:140px;}
+.doctorLb .ysxx .ysPho{ width:94px; height:114px; border:1px solid #d3d3d3; padding:6px; float:left; margin-right:10px;}
+.doctorLb .ysxx .ysPho img{ width:94px; height:114px;}
+.doctorLb .ysxx .xxDetail{ width:500px; float:left; height:140px; overflow:hidden;}
+.doctorLb .ysxx .xxDetail .xxName{ height:40px; line-height:40px; margin-bottom:10px; font-size:24px;}
+.doctorLb .ysxx .xxDetail .xxName span{ font-size:20px; padding-left:20px;}
+.doctorLb .ysxx .xxDetail .xxskill{ line-height:28px; padding-left:60px; width:440px; font-size:18px;}
+.doctorLb .ysxx .xxDetail .xxskill span{ float:left; width:60px; margin-left:-60px; line-height:28px;}
+.registration .doctorLb .visitxx{ width:460px; height:152px; float:right;}
+.doctorLb .visitxx span{ display:inline-block;width:105px; height:60px; line-height:60px; text-align:center; font-size:22px; color:#fff; margin:0 0 16px 10px;}
+.doctorLb .visitxx .cz{ background-color:#3b95d3;}
+.doctorLb .visitxx .cz-not{ background-color:#a8a8a8;}
+.quick .ysIntro{ margin-top:15px; height:400px; width:100%; font-size:18px; line-height:28px;}
+.quick .ysIntro .ysIntro-top{height:128px; width:764px; margin-bottom:20px;}
+.ysIntro .ysIntro-top .ysPho{ width:94px; height:114px; border:1px solid #d3d3d3; padding:6px; float:left; margin-right:10px;}
+.ysIntro .ysIntro-top .ysPho img{ width:94px; height:114px;}
+.ysIntro .ysIntro-top .ysIntro-xx{ width:640px; height:128px; float:left;}
+.ysIntro-top .ysIntro-xx .introName{ height:40px; line-height:40px; margin-bottom:10px; font-size:24px;}
+.ysIntro-top .ysIntro-xx .introName span{ font-size:20px; padding-left:20px;}
+.ysIntro-top .ysIntro-xx .introTxt span{ margin-right:20px; white-space:nowrap;}
+.quick .ysIntro .sc{line-height:28px; padding-left:60px; width:440px; font-size:18px; margin-bottom:20px;}
+.quick .ysIntro .sc span{ float:left; width:60px; margin-left:-60px; line-height:28px;}
+.doctorLb .visitTable{ width:1120px; margin:0 auto; font-size:20px; margin-top:10px;}
+.doctorLb .visitTable table{ border-top:1px solid #d3d3d3;border-left:1px solid #d3d3d3;}
+.doctorLb .visitTable table th,.doctorLb .visitTable table td{ border-bottom:1px solid #d3d3d3;border-right:1px solid #d3d3d3;}
+.doctorLb .visitTable table th{ line-height:30px; height:60px; text-align:center; font-weight:normal; padding:10px 0;}
+.doctorLb .visitTable table td{ line-height:80px; text-align:center;}
+.doctorLb .visitTable .yyBtn{ width:92px; height:47px; display:inline-block; line-height:47px; text-align:center; color:#fff; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background-color:#3b95d3;}
+.doctorLb .visitTable .yyBtn:hover{ background-color:#2e88c6;}
+.doctorLb .visitTable .not-yyBtn{width:92px; height:47px; display:inline-block; line-height:47px; text-align:center; color:#fff; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background-color:#e80042; cursor:default;}
+.quick .timeBtn{ width:215px; height:62px; line-height:62px; text-align:center;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; font-size:26px; color:#fff; background-color:#60ce39; display:inline-block; margin-top:20px; margin-left:10px;}
+.quick .timeTips{ color:#ff0000; padding-top:20px;}
+.quick .timeTips span{ font-size:26px; margin-right:30px;}
+.registration-l .patientWrap{ width:816px; overflow:hidden;}
+.patientWrap h1{ font-size:26px; color:#444; margin:45px 0; font-weight:normal;}
+.patientWrap .patientItem{line-height:45px; padding-bottom:45px; width:816px;}
+.patientWrap .patientItem:before,.patientWrap .patientItem:after{height:0; line-height:0; visibility:hidden; content:"."; display:block; clear:both;}
+.patientWrap .patientItem .patientL{ width:355px; font-size:22px; height:45px; text-align:right; float:left; margin-right:10px;}
+.patientWrap .patientItem .patientR{ width:450px; float:left; overflow:hidden;}
+.patientWrap .patientItem .patientR span{ float:left; display:inline-block;}
+.patientWrap .patientItem .patientR .tips1{ line-height:36px; color:#870404; width:460px; font-size:16px;}
+.patientWrap .patientItem .patientR .tips2{ line-height:36px; color:#1972c5; width:460px;font-size:16px;}
+.patientWrap .patientItem .patientR .tips3{ padding-left:20px; line-height:45px; color:#ff0000; font-size:22px;}
+.patientWrap .patientItem .patientR .patientinput{ width:300px; height:43px; line-height:43px; padding-left:5px; border:1px solid #d3d3d3; border-radius:5px; -moz-border-radius:5px; -border-radius:5px;}
+.patientWrap .patientItem .patientR .patientinput:focus{ border:1px solid #ff0000;}
+.patientWrap .patientItem .certainBtn{ display:inline-block; width:205px; height:48px; line-height:48px; text-align:center; background-color:#ff6a00; font-size:24px; color:#fff; letter-spacing:5px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.patientWrap .patientItem .certainBtn:hover{ background-color:#f06705;}
+.quick .prInfo{ width:720px; height:230px; margin-top:40px; position:relative; line-height:40px;}
+.quick .prInfo{ font-size:22px; color:#444;}
+.quick .prInfo h1{font-weight:normal; font-size:22px; margin-bottom:20px;}
+.quick .prInfo p{ padding-left:185px; width:270px; height:40px;}
+.quick .prInfo p span{ width:165px; float:left; text-align:right; margin-right:20px; height:40px; margin-left:-185px;}
+.quick .prInfo .ghSuccess{ position:absolute; width:184px; height:154px; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; background-color:#e83b68; right:0; top:20px; font-size:50px; color:#fff; display:block; text-align:center; line-height:60px; padding-top:30px;}
+/* 健康资讯 */
+.health-wrap{ width:1120px; padding:18px 0 30px 0; margin:0 auto; overflow:hidden;}
+.health-wrap .news-left{ width:762px; float:left; overflow:hidden;}
+.news-left .latest-news{ width:100%; height:305px;}
+.latest-news .latest-flash{ width:380px; height:305px; float:left; margin-right:30px; position:relative; overflow:hidden;}
+.latest-news .latest-flash .flash-dot{ position:absolute; right:10px; bottom:10px; width:108px;}
+.flash-dot a{ display:inline-block; width:30px; height:30px; float:left; margin-right:6px; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; background-color:#9d9d9d; color:#fff; font-size:20px; text-align:center; line-height:30px;}
+.flash-dot a:hover,.flash-dot a.cur{ background-color:#4aaaf4; color:#fff;}
+.latest-flash ul{ width:1140px; height:305px;}
+.latest-flash ul li{ width:380px; height:305px; float:left;}
+.latest-flash ul li img{width:380px; height:305px;}
+.latest-news .latest-list{ width:352px; float:right; height:305px;}
+.lb-tit{ height:42px; line-height:42px; color:#4aaaf4; font-size:24px; padding-left:32px; position:relative;}
+.lb-tit .lb-bt-icon1{ position:absolute; width:29px; height:24px; display:block; left:0; top:13px; background:url(../images/medical_icon.png) no-repeat -35px -72px;}
+.lb-tit .lb-bt-icon2{ position:absolute; width:26px; height:24px; display:block; left:0; top:13px; background:url(../images/medical_icon.png) no-repeat -72px -72px;}
+.latest-list .zx-con{ width:100%; height:263px; font-size:20px;}
+.latest-list .zx-con li{height:52px; line-height:52px;overflow:hidden; white-space:nowrap;text-overflow:ellipsis; background:url(../images/health_dot.png) no-repeat left center; padding-left:18px;}
+.latest-list .zx-con li a{ color:#3b3b3b;}
+.latest-list .zx-con li a:hover{ color:#52ba54;}
+.news-left .news-con{margin-top:8px;}
+.news-con .pic-news{ height:208px; width:762px; border-bottom:1px dashed #bdbdbd; overflow:hidden;}
+.news-con .pic-news li{ width:189px; margin-right:2px; height:208px; text-align:center; line-height:48px; font-size:18px; float:left;}
+.news-con .pic-news li a.xwbt{ color:#6c6c6c; height:48px; display:block; width:100%;}
+.news-con .pic-news li a:hover{ color:#52ba54;}
+.news-con .pic-news li img{ width:189px; height:160px;}
+.news-con .pic-news li.r-none{ margin-right:0;}
+.news-con .wz-news{ width:100%; font-size:20px;}
+.news-con .wz-news li{ width:353px; float:left; margin-right:10px;height:52px; line-height:52px;overflow:hidden; white-space:nowrap;text-overflow:ellipsis; background:url(../images/health_dot.png) no-repeat left center; padding-left:18px;}
+.news-con .wz-news li a:hover{ color:#52ba54;}
+.news-page{ width:38px; height:23px; float:right;}
+.news-page a.page-pre{ width:12px; height:23px; display:inline-block; margin-right:14px; background:url(../images/medical_icon.png) no-repeat 0 -72px;}
+.news-page a.page-pre:hover{background:url(../images/medical_icon.png) no-repeat 0 -97px;}
+.news-page a.page-next{ width:12px; height:23px; display:inline-block;background:url(../images/medical_icon.png) no-repeat -19px -97px;}
+.news-page a.page-next:hover{background:url(../images/medical_icon.png) no-repeat -19px -72px;}
+.health-wrap .news-right{ width:335px; float:right; overflow:hidden;}
+.news-right .dynamic{ width:335px; margin-bottom:18px; overflow:hidden; font-size:20px;}
+.dynamic .dynamic-tit{ height:42px; line-height:42px; background-color:#4aaaf4; padding-left:8px; font-size:24px; color:#fff;}
+.dynamic .dynamic-list li{ width:100%;height:52px; line-height:52px;overflow:hidden; white-space:nowrap;text-overflow:ellipsis;}
+.dynamic .dynamic-list li a:hover{ color:#52ba54;}
+.news-detail{ padding:10px 0 30px 0; overflow:hidden; font-family:"宋体";}
+.news-detail .detail-title{ text-align:center; font-size:30px; color:#7a7373; padding-bottom:20px;}
+.news-detail .detail-info{ font-size:18px;}
+.news-detail .detail-info span{ margin-right:45px;}
+.detail-txt{ color:#5e5e5e; font-size:24px; line-height:30px; margin:15px 0;}
+.news-detail .more-article{ height:40px; line-height:40px; width:1120px; font-size:24px;}
+.more-article .pre-article{ width:500px; float:left; height:40px;}
+.more-article .next-article{ width:500px; float:right; text-align:right; height:40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

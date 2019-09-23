@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*index*/
+.index-wrap{ width:100%;background-color:#ffe5d8; overflow:hidden; padding-bottom:20px;}
+.fl-con .fl-list{ width:100%; margin-top:30px; overflow:hidden;}
+.fl-con .fl-list li{ width:288px; height:303px; float:left; padding:0 13px 30px 0;}
+.fl-con .fl-list li.r-none{ padding-right:0;}
+.fl-con .fl-list li .fl-icon{ width:288px; height:248px; margin-bottom:2px; display:block; background:url(../images/sort_bg.png) no-repeat;}
+.fl-con .fl-list li .fl-icon:hover{background:url(../images/sort_bg_hover.png) no-repeat;}
+.fl-con .fl-list li .fl-icon .icon-wrap{ width:100%; height:100%; display:block; background-repeat:no-repeat; background-position:center;}
+.fl-con .fl-list li .fl-icon .icon01{ background-image:url(../images/clothes_icon.png);}
+.fl-con .fl-list li .fl-icon .icon02{ background-image:url(../images/medcal_icon.png);}
+.fl-con .fl-list li .fl-icon .icon03{ background-image:url(../images/food_icon.png);}
+.fl-con .fl-list li .fl-icon .icon04{ background-image:url(../images/digital_icon.png);}
+.fl-con .fl-list li .fl-icon .icon05{ background-image:url(../images/health_icon.png);}
+.fl-con .fl-list li .fl-icon .icon06{ background-image:url(../images/entertainment_icon.png);}
+.fl-con .fl-list li .fl-icon .icon07{ background-image:url(../images/travel_icon.png);}
+.fl-con .fl-list li .fl-icon .icon08{ background-image:url(../images/shopping_icon.png);}
+.fl-con .fl-list li .fl-name{ width:288px; height:53px; display:block; line-height:53px; text-align:center; font-size:30px; color:#fff; background-image:url(../images/fl_name_bg.png); background-repeat:no-repeat;}
+.fl-con .fl-list li .fl-name:hover{ color:#fff;}
+.fl-con .fl-list li .name_bg01{ background-position:0 0;}
+.fl-con .fl-list li .name_bg01:hover{ background-position:0 -60px;}
+.fl-con .fl-list li .name_bg02{ background-position:-301px 0;}
+.fl-con .fl-list li .name_bg02:hover{ background-position:-301px -60px;}
+.fl-con .fl-list li .name_bg03{ background-position:-601px 0;}
+.fl-con .fl-list li .name_bg03:hover{ background-position:-601px -60px;}
+.fl-con .fl-list li .name_bg04{ background-position:-902px 0;}
+.fl-con .fl-list li .name_bg04:hover{ background-position:-902px -60px;}
+.fl-con .fl-list li .name_bg05{ background-position:0 -121px;}
+.fl-con .fl-list li .name_bg05:hover{ background-position:0 -181px;}
+.fl-con .fl-list li .name_bg06{ background-position:-301px -121px;}
+.fl-con .fl-list li .name_bg06:hover{ background-position:-301px -181px;}
+.fl-con .fl-list li .name_bg07{ background-position:-601px -121px;}
+.fl-con .fl-list li .name_bg07:hover{ background-position:-601px -181px;}
+.fl-con .fl-list li .name_bg08{ background-position:-902px -121px;}
+.fl-con .fl-list li .name_bg08:hover{ background-position:-902px -181px;}
+/*food and tea*/
+.fl-con .foodsort-list{ width:100%; margin-top:30px; overflow:hidden;}
+.fl-con .foodsort-list li{ width:288px; height:303px; float:left; padding:0 13px 30px 0;}
+.fl-con .foodsort-list li.r-none{ padding-right:0;}
+.fl-con .foodsort-list li .foodsort-icon{ width:288px; height:248px; margin-bottom:2px; display:block; background:url(../images/sort_bg.png) no-repeat;}
+.fl-con .foodsort-list li .foodsort-icon:hover{background:url(../images/sort_bg_hover.png) no-repeat;}
+.fl-con .foodsort-list li .foodsort-icon .icon-wrap{ width:100%; height:100%; display:block; background-repeat:no-repeat; background-position:center;}
+.fl-con .foodsort-list li .foodsort-icon .icon01{ background-image:url(../images/snacks_icon.png);}
+.fl-con .foodsort-list li .foodsort-icon .icon02{ background-image:url(../images/drinks_icon.png)}
+.fl-con .foodsort-list li .foodsort-icon .icon03{ background-image:url(../images/tea_icon.png);}
+.fl-con .foodsort-list li .foodsort-icon .icon04{ background-image:url(../images/wine_icon.png);}
+.fl-con .foodsort-list li .foodsort-icon .icon05{ background-image:url(../images/oil_icon.png);}
+.fl-con .foodsort-list li .foodsort-icon .icon06{ background-image:url(../images/fruit_icon.png);}
+.fl-con .foodsort-list li .foodsort-icon .icon07{ background-image:url(../images/milk_icon.png);}
+.fl-con .foodsort-list li .foodsort-icon .icon08{ background-image:url(../images/fresh_icon.png);}
+.fl-con .foodsort-list li .foodsort-name{ width:288px; height:53px; display:block; line-height:53px; text-align:center; font-size:30px; color:#fff; background-image:url(../images/foodsort_name_bg.png); background-repeat:no-repeat;}
+.fl-con .foodsort-list li .foodsort-name:hover{ color:#fff;}
+.fl-con .foodsort-list li .name_bg01{ background-position:0 0;}
+.fl-con .foodsort-list li .name_bg01:hover{ background-position:0 -56px;}
+.fl-con .foodsort-list li .name_bg02{ background-position:-301px 0;}
+.fl-con .foodsort-list li .name_bg02:hover{ background-position:-301px -56px;}
+.fl-con .foodsort-list li .name_bg03{ background-position:-601px 0;}
+.fl-con .foodsort-list li .name_bg03:hover{ background-position:-601px -56px;}
+.fl-con .foodsort-list li .name_bg04{ background-position:-902px 0;}
+.fl-con .foodsort-list li .name_bg04:hover{ background-position:-902px -56px;}
+.fl-con .foodsort-list li .name_bg05{ background-position:0 -115px;}
+.fl-con .foodsort-list li .name_bg05:hover{ background-position:0 -171px;}
+.fl-con .foodsort-list li .name_bg06{ background-position:-301px -115px;}
+.fl-con .foodsort-list li .name_bg06:hover{ background-position:-301px -171px;}
+.fl-con .foodsort-list li .name_bg07{ background-position:-601px -115px;}
+.fl-con .foodsort-list li .name_bg07:hover{ background-position:-601px -171px;}
+.fl-con .foodsort-list li .name_bg08{ background-position:-902px -115px;}
+.fl-con .foodsort-list li .name_bg08:hover{ background-position:-902px -171px;}
+/*index*/
+.helpWrap{ margin-top:10px;}
+.helpWrap .helpmenu{ width:240px; border:1px solid #d6d6d6; border-bottom:0px none; float:left;}
+.helpmenu .menu-list .firstmenu{ padding:0 45px 0 72px; height:58px; line-height:58px; background-color:#f5f5f5; color:#333; font-size:24px; position:relative; width:123px; border-bottom:1px solid #d6d6d6; display:block;}
+.firstmenu .menu-icon{ width:60px; height:65px; position:absolute; top:-1px; left:-7px; background-image:url(../images/helpmenu_icon.png); background-repeat:no-repeat;}
+.firstmenu .icon01{ background-position:0 0;}
+.firstmenu .icon02{ background-position:0 -65px;}
+.firstmenu .icon03{ background-position:0 -130px;}
+.firstmenu .icon04{ background-position:0 -195px;}
+.firstmenu .menu-icon2{ width:24px; height:12px; background:url(../images/shop_sprite.png) no-repeat -60px -229px; position:absolute; top:23px; right:20px;}
+.menu-hover .firstmenu .menu-icon2{background:url(../images/shop_sprite.png) no-repeat -93px -229px;}
+.helpmenu .menu-list .submenu{ overflow:hidden; width:240px;}
+.helpmenu .menu-list .submenu li{ width:240px; height:58px; line-height:58px; text-align:center; font-size:18px;border-bottom:1px solid #d6d6d6;}
+.helpmenu .menu-list .submenu li.on a{ color:#e16426;}
+.helpWrap .helptxt{ width:930px; float:right; overflow:hidden;}
+.helptxt .help-shortcut{border:1px solid #d6d6d6; padding:20px 90px; overflow:hidden; height:95px;}
+.helptxt .help-shortcut li{ float:left; height:95px; width:340px;}
+.helptxt .help-shortcut li .shortcutpic{ padding-left:5px; height:60px; margin-bottom:10px; display:block;}
+.helptxt .help-shortcut li .shortcuttxt{ line-height:24px; width:100%; display:block;}
+.helptxt .help-shortcut li.jy{ width:65px;}
+.helptxt .help-search{ height:42px; margin:40px 0;}
+.help-search .help-keyword{ width:380px; float:left; display:inline; height:42px; line-height:42px;}
+.help-search .help-keyword a{ font-size:18px; color:#999; margin-right:8px;}
+.help-search .help-keyword a:hover{color:#e16426;}
+.help-search .search-con{ width:540px; float:right; height:42px;}
+.help-search .search-con span { display: inline-block; float: left; }
+.help-search .search-con .btn-search { font-size: 18px;color: #FFF; background-color: #e16426; cursor: pointer; height: 42px; width: 98px; border: none; border-width: 0; }
+.search-con .keyword-input { border: 2px solid #e16426; height: 38px; line-height: 38px; font-family: "Microsoft Yahei"; background-color: #fff; width: 428px; padding-left: 10px; font-size: 16px; *margin-top:-1px;}
+.helptxt .help-article{border:1px solid #d6d6d6; overflow:hidden;width:928px;}
+.help-article h2{border-bottom:1px solid #d6d6d6; padding-left:20px; height:58px; line-height:58px; font-size:24px; font-weight:normal; color:#333;}
+.help-article .articlecon{ padding:20px; line-height:24px; color:#666;}
+.helptxt .search-list{ width:930px; overflow:hidden; font-size:18px;}
+.search-list .searchtotal{ border-top:1px solid #66a6ff; background-color:#e5f0ff; height:40px; line-height:40px; padding-left:10px; color:#333; font-size:20px;}
+.search-list .searchrecommend{border:1px solid #d6d6d6; margin:20px 0; width:928px; overflow:hidden;}
+.searchrecommend .recommend-tit{border-bottom:1px solid #d6d6d6; padding-left:45px; height:40px; line-height:40px; font-size:18px; position:relative;}
+.searchrecommend .recommend-tit .recommendicon{ width:30px; height:23px; display:block; position:absolute; left:10px; top:9px; background:url(../images/searchgoods_icon.png) no-repeat 0 -66px;}
+.searchrecommend .recommendlist{ padding:20px 40px 10px 40px; }
+.recommendlist li{ padding-left:35px; font-size:18px; width:840px; overflow:hidden; position:relative; margin-bottom:10px;}
+.recommendlist li .xh{ width:24px; height:24px; border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%; background-color:#ffa800; display:block; line-height:24px; text-align:center; color:#fff; font-size:18px; position:absolute; top:0; left:0;}
+.search-list a{ color:#3366cc;}
+.search-list a:hover{ color:#e16426;}
+.search-list .bt{ height:24px; line-height:24px; overflow:hidden; margin-bottom:10px; width:100%;}
+.search-list .lb{ padding-left:20px; padding-bottom:30px;}
+.search-list .lb li{ margin-bottom:10px; overflow:hidden;}
+
+
+
+
+
+
+
+

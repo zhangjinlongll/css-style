@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*黑色主题*/
+.tb-shop .shop-nav { width: 100%; height: 40px; background-color: #447edf; line-height: 40px; font-size: 20px; }
+.shop-category .allbtn h2 a { display: block; background-color: #447edf; height: 40px; line-height: 40px; padding-left: 20px; width: 220px; color: #fff; font-weight: normal; }
+.shop-nav .nav-list li a.on,.shop-nav .nav-list li a:hover { background-color: #f4f4f4; color:#000;}
+
+.fl-list .fl-box{background-color: #3670d2; border:1px solid #2c61ca; border-bottom:0px none;}
+.fl-box li{ border-bottom:1px solid #2c61ca;}
+.fl-box li.fl-hover { background-color: #fff;}
+.fl-box li a {color: #fff;}
+.fl-box li.fl-hover a { color: #000; }
+.fl-box li a:hover { color: #fff; }
+.fl-box li.fl-hover a:hover{color: #447edf;}
+.fl-box li i { width: 20px; height: 40px; display: block; position: absolute; top: 15px; left: 10px; background-position: top center; background-repeat: no-repeat; }
+.fl-box li i.sort1 { background-image:url(images/productsort_icon.png); }
+.fl-box li.fl-hover i.sort1 { background-image: url(images/productsort_icon_hover.png);}
+.fl-box li .second-sort a{ color:#fff;}
+.fl-box li .second-sort a:hover{ color:#fff;}
+.fl-box li.fl-hover .second-sort a{ color:#666;}
+.fl-box li.fl-hover .second-sort a:hover{color: #447edf;}
+.fl-box .pop{border:1px solid #2c61ca; border-left:0px none;}
+.fl-box .pop dl dt{background:url(images/shopsort_dot.gif) no-repeat left center; }
+.fl-box .pop dd a{ color:#666;}
+.fl-box .pop dd a:hover{ color:#2c67ca;}
+
+.groupItem .itemHeader{ background-color:#447edf;}
+.groupItem .itemHeader h3{ color:#fff;}
+.groupItem .itemHeader .more-link{ color:#fff;}
+.groupItem .itemHeader .more-link:hover{ color:#fff; text-decoration:underline;}
+.groupWrapper .ShopDecoration_leftSearch li.ShopDecoration_recommend-keyword a:hover{color: #447edf;}
+.groupWrapper .ShopDecoration_leftSortbox li .sort-px a:hover{color: #447edf;}
+.groupWrapper .ShopDecoration_leftSortbox li .ShopDecoration_first-bt:hover{color: #447edf;}
+.groupWrapper .ShopDecoration_leftSortbox li ul li a:hover{color: #447edf;}
+.groupWrapper .ShopDecoration_leftSortbox li ul li.on, .groupWrapper .ShopDecoration_leftSortbox li ul li:hover{ background:url(images/submenu_dot_hover.gif) no-repeat left center;}
+.groupWrapper .ShopDecoration_leftSearch li.ShopDecoration_leftSearch-submit .ShopDecoration_leftSearch-submitBtn { background-color:#447edf;}
+.groupWrapper .ShopDecoration_leftRanklist li .ranktitle a:hover{color: #447edf;}
+.ShopDecoration_rightProductlist li .ShopDecoration_rightTj-tit a:hover{color: #447edf;}
+.groupWrapper .ShopDecoration_leftRanklist li.rank-more a{ color:#447edf;}

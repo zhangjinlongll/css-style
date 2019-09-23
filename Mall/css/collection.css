@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*collecion of goods*/
+.collectionWrap { color: #333; font-size: 18px; margin-top: 20px; }
+.collectionWrap .collectContent { width: 100%; }
+.collectContent .collection-tit { width: 403px; height: 60px; border: 1px solid #d6d6d6; border-right: 0px none; border-bottom: 0px none; }
+.collectContent .collection-tit a { display: inline-block; width: 200px; height: 60px; line-height: 60px; text-align: center; font-size: 24px; border-right: 1px solid #d6d6d6; color: #333; }
+.collectContent .collection-tit a:hover, .collectContent .collection-tit a.on { color: #fff; background-color: #e16426; }
+.collectContent .collectionOperate { border: 1px solid #d6d6d6; height: 38px; padding: 10px 0 10px 20px; line-height: 38px; }
+.collectionOperate .total-num { float: left; width: 380px; height: 38px; color: #e16426; font-size: 20px; }
+.collectionOperate .bulkmanage { width: 490px; height: 38px; float: left; text-align: right; }
+.collectionOperate .bulkmanage span { margin-right: 50px; }
+.collectionOperate .bulkmanage span.bulkhidden { display: block; }
+.collectionOperate .bulkmanage .bulkshow { width: 100%; height: 38px; display: none; }
+.collectionOperate .bulkmanage .bulkmanageBtn { width: 90px; height: 36px; line-height: 36px; text-align: center; display: inline-block; border: 1px solid #d6d6d6; color: #666; background-color: #fff; }
+.collectionOperate .bulkmanage .bulkmanageBtn:hover { border: 1px solid #e16426; color: #e16426; }
+.collectionOperate .searchCollection { float: right; width: 298px; height: 38px; }
+.searchCollection .searchkey-input { width: 36px; height: 36px; border: 1px solid #d6d6d6; width: 255px; padding-left: 5px; float: left; background-color: #fff; font-size: 16px; font-family: "Microsoft Yahei"; }
+.searchCollection .collectsearchBtn { width: 36px; height: 38px; float: left; margin: 0; padding: 0; background: url(../images/shop_sprite.png) no-repeat 0 -145px; border: 0px none; }
+.collectionWrap .collect-goods { width: 100%; overflow: hidden; }
+.collectionWrap .collect-goods li { width: 278px; height: 352px; float: left; margin: 40px 26px 0 0; position: relative; }
+.collect-goods li.no-bj { margin-right: 0; }
+.collect-goods .goods-img { width: 278px; height: 278px; display: table; table-layout: fixed; }
+.collect-goods .goods-img a { display: table-cell; width: 276px; height: 276px; border: 1px solid #d6d6d6; vertical-align: middle; text-align: center; }
+.collect-goods .goods-img a img { max-height: 276px; max-width: 276px; vertical-align: middle; }
+.collect-goods .goods-title { width: 100%; height: 30px; padding: 10px 0; line-height: 30px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.collect-goods .goods-title a { color: #333; }
+.collect-goods .goods-title a:hover { color: #e16426; }
+.collect-goods .goods-price { height: 24px; line-height: 24px; padding-right: 50px; position: relative; color: #e16426; }
+.collect-goods .goods-price .deleteColletionBtn { width: 50px; right: 0; top: 0; height: 24px; background: url(../images/shop_sprite.png) no-repeat -40px -145px; position: absolute; display: block; }
+.collect-goods .goods-price .deleteColletionBtn:hover { background-position: -40px -170px; }
+.collect-goods li .edit-goods { position: absolute; left: 0; top: 0; width: 278px; height: 278px; overflow: hidden; z-index: 10; display: none; }
+.collect-goods li .edit-goods-bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: 0.3; -moz-opacity: 0.3; filter: alpha(opacity=30); -khtml-opacity: 0.3; z-index: 9; }
+.collect-goods li .edit-goods-border { position: absolute; left: 0; top: 0; width: 276px; height: 276px; border: 1px solid #777; }
+.collect-goods li .edit-goods-btn { height: 100%; width: 100%; right: 0px; bottom: 0px; position: absolute; cursor: pointer; z-index: 11; }
+.collect-goods li .edit-goods-btn .edit-icon { width: 24px; height: 24px; position: absolute; right: 12px; top: 12px; display: block; cursor: pointer; background: url(../images/shop_sprite.png) no-repeat -99px -145px; }
+.goods-editting .collectionOperate .bulkmanage .bulkhidden { display: none; }
+.goods-editting .collectionOperate .bulkmanage .bulkshow { display: block; }
+.goods-editting .collect-goods li .edit-goods { display: block; }
+.goods-editting .collect-goods li.edit-select .edit-goods-border, .goods-editting .collect-goods li:hover .edit-goods-border { border: 4px solid #e16426; width: 270px; height: 270px; }
+.goods-editting .collect-goods li.edit-select .edit-goods-bg, .goods-editting .collect-goods li:hover .edit-goods-bg { opacity: 0.2; -moz-opacity: 0.2; filter: alpha(opacity=20); -khtml-opacity: 0.2; background: #e16426; }
+.goods-editting .collect-goods li.edit-select .edit-goods-btn .edit-icon { background-position: -97px -66px; }
+.sc-page { margin-top: 50px; height: 50px; }
+/*collecion of shops*/
+.collectionWrap .collect-shops { width: 100%; overflow: hidden; }
+.collectionWrap .collect-shops li { width: 1189px; height: 360px; border: 1px solid #d6d6d6; position: relative; margin-top: 40px; }
+.collect-shops .collectShopinfo { width: 240px; float: left; border-right: 1px solid #d6d6d6; padding: 20px; height: 320px; text-align: center; line-height: 24px; }
+.collectShopinfo .info-photo { padding-left: 40px; display: table; table-layout: fixed; }
+.collectShopinfo .info-photo a { display: table-cell; width: 158px; height: 158px; border: 1px solid #d6d6d6; vertical-align: middle; text-align: center; }
+.collectShopinfo .info-photo a img { width: 158px; height: 158px; vertical-align: middle; }
+.collectShopinfo .info-shopname { padding: 15px 0; height: 24px; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 20px; }
+.collectShopinfo .info-shopname a { color: #333; }
+.collectShopinfo .info-shopname a:hover { color: #e16426; }
+.collectShopinfo .info-contactme { color: #666; height: 24px; }
+.collectShopinfo .info-contactme span { display: inline-block; margin-right: 5px; }
+.collectShopinfo .info-contactme .ww-line { width: 20px; height: 21px; display: inline-block; margin-top: 1px; background: url(../images/ww-line.png) no-repeat; }
+.collectShopinfo .collectNum { margin-top: 50px; height: 24px; padding-right: 50px; position: relative; color: #999; text-align: left; }
+.collectShopinfo .collectNum .deleteColletionBtn { width: 50px; right: 0; top: 0; height: 24px; background: url(../images/shop_sprite.png) no-repeat -40px -145px; position: absolute; display: block; }
+.collectShopinfo .collectNum .deleteColletionBtn:hover { background-position: -40px -170px; }
+.collect-shops .shop-product { width: 908px; float: left; height: 360px; }
+.shop-product .rec-tit { height: 40px; padding: 0 20px; border-bottom: 1px solid #d6d6d6; position: relative; text-align: right; line-height: 40px; }
+.rec-tit .tit-list { position: absolute; left: 0; top: 0; width: 300px; height: 41px; }
+.rec-tit .tit-list a { display: inline-block; width: 150px; height: 39px; line-height: 39px; color: #333; padding-bottom: 2px; text-align: center; }
+.rec-tit .tit-list a.on, .rec-tit .tit-list a:hover { border-bottom: 2px solid #e16426; color: #e16426; padding: 0; }
+.shop-product .productlist { padding: 35px 1px; width: 906px; height: 250px; }
+.shop-product .productlist .p-item { width: 200px; height: 250px; margin: 0 13px; float: left; }
+.productlist .p-item .p-img { width: 200px; height: 200px; display: table; table-layout: fixed; }
+.productlist .p-item .p-img a { display: table-cell; width: 200px; height: 200px; vertical-align: middle; text-align: center; }
+.productlist .p-item .p-img a img { max-height: 200px; max-width: 200px; vertical-align: middle; }
+.productlist .p-item .p-price { text-align: center; height: 30px; line-height: 30px; font-size: 20px; padding: 15px 0; }
+.productlist .p-item .p-price .xj { color: #e16426; margin-right: 10px; }
+.productlist .p-item .p-price .yj { color: #999; text-decoration: line-through; }
+.collect-shops li .edit-shops { position: absolute; left: 0; top: 0; width: 1191px; height: 362px; overflow: hidden; z-index: 10; display: none; }
+.collect-shops li .edit-shops-bg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; opacity: 0.3; -moz-opacity: 0.3; filter: alpha(opacity=30); -khtml-opacity: 0.3; z-index: 9; }
+.collect-shops li .edit-shops-border { position: absolute; left: 0; top: 0; width: 1189px; height: 360px; border: 1px solid #777; }
+.collect-shops li .edit-shops-btn { height: 100%; width: 100%; right: 0px; bottom: 0px; position: absolute; cursor: pointer; z-index: 11; }
+.collect-shops li .edit-shops-btn .edit-icon { width: 24px; height: 24px; position: absolute; right: 12px; top: 12px; display: block; cursor: pointer; background: url(../images/shop_sprite.png) no-repeat -99px -145px; }
+.shop-editting .collectionOperate .bulkmanage .bulkhidden { display: none; }
+.shop-editting  .collectionOperate .bulkmanage .bulkshow { display: block; }
+.shop-editting .collect-shops li .edit-shops { display: block; }
+.shop-editting .collect-shops li.edit-select .edit-shops-border, .shop-editting .collect-shops li:hover .edit-shops-border{ border: 4px solid #e16426; width: 1183px; height: 354px; }
+.shop-editting .collect-shops li.edit-select .edit-shops-bg,.shop-editting .collect-shops li:hover .edit-shops-bg { opacity: 0.2; -moz-opacity: 0.2; filter: alpha(opacity=20); -khtml-opacity: 0.2; background: #e16426; }
+.shop-editting .collect-shops li.edit-select .edit-shops-btn .edit-icon { background-position: -97px -66px; }
+/*hotsale*/
+.collectionWrap .centerAds { margin: 50px 0; width: 100%; }
+.collectionWrap .hotsaleBox { padding-bottom: 40px; }
+.hotsaleBox .hotTitle { width: 100%; height: 42px; line-height: 42px; border-bottom: 2px solid #e16426; }
+.hotTitle h3 { font-weight: normal; font-size: 22px; height: 42px; width: 210px; float: left; color: #e16426; }
+.hotTitle .hotkeywords { width: 890px; float: left; height: 42px; text-align: right; overflow: hidden; }
+.hotTitle .hotkeywords a { margin-left: 30px; }
+.hotTitle .morehot { width: 90px; float: right; text-align: right; height: 42px; }
+.hotsaleBox .rmList { width: 100%; overflow: hidden; margin-top: 25px; }
+.hotsaleBox .rmList li { float: left; padding: 0 9px 9px 9px; width: 262px; margin: 0 8px 30px 9px; overflow: hidden; }
+.hotsaleBox .rmList li .rmimg { width: 260px; height: 260px; display: table; table-layout: fixed; border: 1px solid #ddd; }
+.hotsaleBox .rmList li .rmimg a { width: 260px; height: 260px; overflow: hidden; display: table-cell; vertical-align: middle; text-align: center; }
+.hotsaleBox .rmList li .rmimg a img { max-width: 260px; max-height: 260px; vertical-align: middle; }
+.hotsaleBox .rmList li .rmtitle { width: 262px; height: 48px; line-height: 24px; overflow: hidden; margin: 10px 0; }
+.hotsaleBox .rmList li .rmprice { height: 24px; line-height: 24px; }
+.hotsaleBox .rmList li .rmprice .jg { width: 100px; float: left; margin-right: 10px; overflow: hidden; }
+.hotsaleBox .rmList li .rmprice .jg em { color: #e16426; font-style: normal; font-size: 18px; font-weight: bold; }
+.hotsaleBox .rmList li .rmprice .xl { width: 150px; float: right; text-align: right; color: #999; }

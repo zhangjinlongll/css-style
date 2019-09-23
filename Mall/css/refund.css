@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+body { position: relative; }
+.blue { color: #3d74e5; }
+.returnWrap { position: relative; }
+.returnWrap .layout-crumb { margin: 10px 0; font-size: 18px; color: #666; overflow: hidden; }
+.layout-crumb .layout-position { float: left; width: 400px; }
+.layout-crumb .service-phone { float: right; }
+.layout-crumb .position-tit { font-weight: normal; color: #000; }
+.returnWrap .layout-step { margin-bottom: 10px; overflow: hidden; }
+.refund-step { border: 1px solid #DDD; }
+.refund-step { padding: 70px 62px 57px 62px; border: 1px solid #DDD; background: #fff; margin-bottom: 10px; }
+.refund-step-bar li, .refund-step-bar .refund-step-cur .refund-step-status, .refund-step-bar .refund-step-start-cur .refund-step-status, .refund-step-bar .refund-step-end-cur, .refund-step .refund-step-start-done .refund-step-status { background: url(../images/refund_step.png) no-repeat; }
+.refund-step-bar li { color: #888; float: left; position: relative; height: 50px; margin-top: -17px; width: 100%; }
+.refund-step-3 li { width: 49.99%; margin-left: -25px; }
+.refund-step-4 li { width: 33.33%; margin-left: -25px; }
+.refund-step-5 li { width:25%; margin-left: -25px; }
+.refund-step-bar { height: 16px; background-color: #cbc9c1; }
+.refund-step-bar .refund-step-done .refund-step-status, .refund-step-bar .refund-step-start-done .refund-step-status, .refund-step-bar .refund-step-end-done .refund-step-status, .refund-step-bar .refund-step-cur .refund-step-status, .refund-step-bar .refund-step-start-cur .refund-step-status, .refund-step-bar .refund-step-end-cur .refund-step-status { display: block; height: 10px; background-color: #e16426; margin-top: -30px; font-size: 0px; overflow: hidden; }
+.refund-step-bar .refund-step-cur .refund-step-status, .refund-step-bar .refund-step-start-cur .refund-step-status, .refund-step-bar .refund-step-end-cur .refund-step-status, .refund-step .refund-step-start-done .refund-step-status { width: 50%; padding-right: 25px; background-position: right -325px; }
+.refund-step-bar .refund-step-start .refund-step-status, .refund-step-bar .refund-step-start-cur .refund-step-status, .refund-step-bar .refund-step-start-done .refund-step-status { margin-left: 10px; padding-right: 12px; }
+.refund-step-bar .refund-step-start-done, .refund-step-bar .refund-step-start-cur { background-position: 0px -161px; }
+.refund-step-bar .refund-step-end, .refund-step-bar .refund-step-end-cur, .refund-step-bar .refund-step-end-done { width: 50px; margin-left: -50px; margin-right: 0px; float: right; }
+.refund-step-bar .refund-step-end { background-position: 0px -216px; }
+.refund-step-bar .refund-step-cur { background-position: 0px -53px; }
+.refund-step-bar .refund-step-done { background-position: 0px -53px; }
+.refund-step-bar .refund-step-end-cur, .refund-step-bar .refund-step-end-done { background-position: 0px -270px; }
+.refund-step-bar .refund-step-end .refund-step-status, .refund-step-bar .refund-step-end-cur .refund-step-status, .refund-step-bar .refund-step-end-done .refund-step-status { padding-left: 10px; }
+.refund-step-bar .refund-step-end .refund-step-status, .refund-step-bar .refund-step-end-cur .refund-step-status, .refund-step-bar .refund-step-end-done .refund-step-status { margin-right: 10px; padding: 0px; }
+.refund-step-bar .refund-step-no { display: block; font-weight: normal; width: 50px; height: 50px; line-height: 50px; text-align: center; color: #e16426; font-size: 20px; }
+.refund-step-bar .refund-step-name { position: relative; float: left; top: -40px; margin-top: -40px; margin-left: -25px; white-space: nowrap; font-style: normal; }
+.refund-step-bar .refund-step-done, .refund-step-bar .refund-step-start-done, .refund-step-bar .refund-step-end-done { color: #888; }
+.refund-step-bar .refund-step-cur, .refund-step-bar .refund-step-start-cur, .refund-step-bar .refund-step-end-cur, .refund-step-bar .refund-step-done, .refund-step-bar .refund-step-start-done, .refund-step-bar .refund-step-end-done { color: #e16426; font-weight: 700; }
+.refund-step-bar .refund-step-end-cur .refund-step-no, .refund-step-bar .refund-step-start-cur .refund-step-no, .refund-step-bar .refund-step-end-done .refund-step-no, .refund-step-bar .refund-step-start-done .refund-step-no, .refund-step-bar .refund-step-done .refund-step-no, .refund-step-bar .refund-step-cur .refund-step-no { color: #fff; }
+.refund-step-bar .refund-step-done .refund-step-status, .refund-step-bar .refund-step-start-done .refund-step-status, .refund-step-bar .refund-step-end-done .refund-step-status { width: auto; padding: 0px; }
+.refund-step-bar .refund-step-start, .refund-step-bar .refund-step-start-cur, .refund-step-bar .refund-step-start-done { margin-left: 0px; }
+.refund-step-bar .refund-step-end .refund-step-name, .refund-step-bar .refund-step-end-cur .refund-step-name, .refund-step-bar .refund-step-end-done .refund-step-name { float: right; margin-right: -15px; }
+.layout-main { overflow: hidden; margin-bottom: 20px; border: 1px solid #ddd; border-top: 0px none; }
+.layout-main .column-sub { float: left; width: 346px; height: 100%; border-right: 1px solid #DDD; padding-bottom: 500px; margin-bottom: -500px; }
+.layout-main .column-main { overflow: hidden; border-top: 1px solid #DDD; width: 842px; height: 100%; float: right; min-height: 500px; }
+.box-hd { background: #F9F9F9; border-top: 1px solid #DDD; border-bottom: 1px solid #DDD; border-width: 1px 0px; height: 40px; line-height: 40px; padding: 0px 0px 0px 10px; font-weight: 700; font-size: 18px; position: relative; }
+.box-bd { padding: 0px 10px; }
+.box-section { clear: both; overflow: hidden; }
+.refund-box-item .item-pic { float: left; width: 95px; height: 95px; margin-right: 10px; overflow: hidden; text-align: center; border: 1px solid #E9E9E9; display: table-cell; vertical-align: middle; }
+.refund-box-item .item-pic img { max-height: 95px; max-width: 95px; vertical-align: middle; }
+.refund-box-item .section-core { padding-top: 10px; }
+.refund-box-item .item-title { position: relative; top: -2px; max-height: 66px; }
+.refund-box-item .item-sku { height: 18px; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #999; }
+.meta-list dt { float: left; width: 80px; color: #999; padding: 4px 0px; }
+.meta-list dd { overflow: hidden; color: #999; padding: 4px 0px; }
+.refund-box .box-bd span { vertical-align: top; width: auto; word-wrap: break-word; overflow: hidden; word-break: break-all; table-layout: fixed; }
+.meta-list .ww-line { width: 20px; height: 21px; display: inline-block; margin-top: 1px; background: url(../images/ww-line.png) no-repeat; margin-left: 5px; }
+.refund-box-item .section-meta { margin-top: 10px; padding-top: 5px; border-top: 1px dotted #D4D4D4; }
+.refund-box-order { margin-top: 5px; }
+.refund-box-item .refund-wl { margin-top: 15px; position: relative; height: 24px; line-height: 24px; }
+.column-main .returnStyle { padding: 100px 0 0 30px; overflow: hidden; }
+.column-main .returnStyle a { width: 286px; height: 146px; padding: 3px; background: url(../images/returnStyle_bg.jpg) no-repeat; display: inline-block; margin: 0 45px; float: left; }
+.column-main .returnStyle a span { display: block; }
+.column-main .returnStyle a .stylename { margin: 32px 0 0 70px; display: inline-block; height: 40px; line-height: 40px; padding-left: 30px; position: relative; color: #3d74e5; font-size: 24px; }
+.column-main .returnStyle a .stylename i.th-icon { position: absolute; left: 0; top: 8px; width: 18px; height: 24px; background: url(../images/shop_sprite.png) no-repeat -93px -170px; display: block; }
+.column-main .returnStyle a .stylename i.tk-icon { position: absolute; left: 0; top: 8px; width: 27px; height: 24px; background: url(../images/shop_sprite.png) no-repeat 0 -186px; display: block; }
+.column-main .returnStyle a:hover { border: 3px solid #3d74e5; padding: 0; background: #fff; }
+.column-main .returnStyle a .yf-tips { margin: 18px 0 0 70px; padding-left: 25px; position: relative; height: 24px; line-height: 24px; color: #26ab07; }
+.column-main .returnStyle a .yf-tips .tips-icon { position: absolute; left: 0; top: 4px; width: 16px; height: 16px; background: url(../images/shop_sprite.png) no-repeat -112px -170px; display: block; }
+/*物流详情*/
+.logistics { width: 400px; height: auto; display: none; background-color: #FFF; border: 1px solid #DDD; position: absolute; z-index: 1000; font-size: 14px; }
+.logistics .l-head { border-bottom: 1px dashed #DDD; color: #999; }
+.logistics .l-head, .logistics .l-body { text-align: left; padding: 5px 0px; width: 94%; margin-left: auto; margin-right: auto; }
+.logistics .l-body .first { color: #D27836; }
+.logistics .l-b-item { width: 376px; overflow: hidden; color: #666; list-style-type: none; }
+.logistics .l-b-item span { margin-right: 10px; float: left; width: 50px; word-break: break-all; word-wrap: break-word; }
+.logistics .l-b-item .time { color: #999; float: left; }
+.logistics .l-body .first .time { color: #D27836; }
+.logistics .l-b-item label { border-left: 1px dashed #DDD; padding-left: 10px; float: left; display: block; width: 288px; }
+.logistics .litem label { padding-bottom: 15px; }
+.hide { color: #fff; }
+.logistics .l-b-item:hover { background-color: #f6f6f6; }
+.logistics .l-b-item:hover .hide { color: #666; }
+/*question*/
+.questionwrap { width: 100%; overflow: hidden; margin-bottom: 50px; line-height: 26px; }
+.questionwrap .question-tit { height: 30px; line-height: 30px; border-bottom: 1px solid #ddd; font-size: 18px; }
+.question-tit h2 { font-size: 18px; float: left; width: 200px; height: 20px; color: #333; font-weight: 700; }
+.question-tit .more-answer { float: right; width: 100px; text-align: right; }
+.questionwrap .questionList { padding-top: 10px; }
+.questionwrap .questionList li { margin-bottom: 10px; }
+/*申请退款*/
+.entry-goods { padding: 20px 0 0 20px; font-size: 16px; position:relative;}
+.entry-fee { padding: 20px 0 0 20px; font-size: 16px;position:relative; }
+.mustInput{ position:absolute; right:50px; top:10px; width:80px; line-height:24px;}
+.mustInput b { display: inline-block; width: 6px; color: #ff0000; padding: 0px 2px; vertical-align: middle; text-align: center; }
+.form-field { position: relative;margin-bottom: 5px; }
+.field-hd { text-align: right; width: 110px; color: #333; }
+.form-field .field-hd { float: left; width: 110px; color: #333; text-align: right; margin-right: 5px; }
+.field-bd { margin: 0px 0px 10px 115px;}
+.field-bd:before,.field-bd:after{content: "."; display: block; visibility: hidden; height: 0; line-height: 0; font-size: 0;}
+.form-field .field-hd b { display: inline-block; width: 6px; color: #ff0000; padding: 0px 2px; vertical-align: middle; text-align: center; }
+.reason-tips { position: relative; left: 0; padding-left: 21px; height: 24px; line-height: 24px; color: #676767; margin-top: 5px; }
+.reason-tips .tipsicon { background: url(../images/shop_sprite.png) no-repeat -40px -195px; width: 17px; height: 17px; left: 0; top: 3px; display: block; position: absolute; }
+.field-bd .multitext { border: 1px solid #7E9DB7; width: 454px; height: 96px; line-height: 24px; padding: 3px; resize: none; }
+.field-bd .input-counter { margin-left: 10px; color: #666; }
+.upload-panel { top: 0; position: relative; }
+.upload-panel .upload-preview { overflow: hidden; }
+.upload-preview-remove { margin-left: 10px; display: inline-block; position: relative; top: -13px; cursor: pointer; color: #36C; }
+.upload-btn { background-color: #20b9d5; height: 32px; line-height: 32px; width: 142px; text-align: center; color: #fff; display: block; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; }
+.upload-btn:hover { background-color: #14afcb; color: #fff; }
+.upload-tips { color: #999; margin-top: 5px; display: block; }
+.field-action { padding: 45px 0px 20px 115px; height: 37px; }
+.field-action .submitButton { width: 152px; height: 37px; line-height: 37px; text-align: center; border: 0px none; outline: 0px none; background-color: #e16426; font-size: 18px; color: #fff; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; cursor:pointer; }
+.field-action .submitButton:hover { background-color: #d95b1d; }
+.box-hd .waitingProcess { position: absolute; right: 10px; top: 0; width: 50px; height: 40px; line-height: 40px; font-size: 16px; color: #eda722; background: url(../images/waitingIcon.png) no-repeat left center; padding-left: 20px; font-weight: normal; }
+.refund-box .box-bd ul { color: #666; padding-top: 10px; }
+.refund-box .box-bd ul li { padding-bottom: 4px; list-style: outside none none; color: #999; position: relative; }
+.refund-box .box-bd span.desc { display: inline-block; top: -2px; width: auto; }
+.refund-box .box-bd strong { color: #C00; }
+.refund-box .refund-reason { overflow: hidden; }
+.refund-box .refund-reason .desc-label { display: block; float: left; width: 80px; }
+.refund-box .box-bd .refund-reason .desc { display: block; float: left; width: 245px; }
+.box-bd-act { padding-bottom: 6px; border-bottom: 1px dotted #D4D4D4; overflow: hidden; clear: both; }
+.box-bd-act .order-act a { position: relative; display: inline-block; height: 25px; line-height: 25px; padding: 0px 20px 0px 0px; color: #333; }
+.box-bd-act .order-act a i { position: absolute; display: inline-block; top: 9px; right: 10px; height: 8px; line-height: 8px; width: 10px; overflow: hidden; background: url(../images/shop_sprite.png) no-repeat -40px -215px; }
+.m { padding-top: 10px; }
+.waiting-box { padding: 20px; font-size: 20px; }
+.waiting-box .waiting-txt { padding: 30px 80px 10px 80px; border-bottom: 1px dotted #9f9f9f; position: relative; }
+.waiting-box .waiting-txt .waitingTipsIcon { position: absolute; left: 20px; top: 30px; width: 40px; height: 40px; background: url(../images/shop_sprite.png) no-repeat 0 -212px; }
+.waiting-box .waiting-txt .wz1 { font-size: 22px; color: #2c2c2c; margin-bottom: 30px; display: block; }
+.waiting-box .waiting-txt .wz2 { color: #2c2c2c; line-height: 32px; padding-left: 18px; display: block; background: url(../images/refunddot.png) no-repeat left top; margin-bottom: 10px; }
+.waiting-box .waiting-txt .remaintime { color: #e16426; padding: 0 5px; }
+.waiting-box .waiting-operate { padding: 20px 0 30px 80px; }
+.waiting-box .waiting-operate p { display: block; margin-bottom: 20px; }
+.consultationRecord { width: 770px; float: left; margin-right: 20px; overflow: hidden; }
+.consultationRecord .uploadMessage { border-top: 2px solid #d5d5d5;padding: 8px 0 8px 20px; background-color: #f7f5f7; overflow:hidden; font-size:16px; color:#333;}
+.consultationRecord .uploadMessage span{ display:inline-block; margin-right:15px; line-height:31px; float:left;}
+.consultationRecord .uploadMessage .btnarea{ height:31px; line-height:31px; width:100%;}
+.consultationRecord .uploadMessage a{display:inline-block; margin-right:15px;float:left;}
+.consultationRecord .uploadMessage .scArea{ width:100%; overflow:hidden; padding-bottom:10px; display:none;}
+.consultationRecord .uploadMessage .scArea .scView{ height:65px; line-height:65px; margin-bottom:5px;}
+.consultationRecord .uploadMessage .scArea .scView a{ height:65px;}
+.uploadMessage .scArea .messageTxt{ width:532px; height:87px; position:relative; margin-bottom:14px;}
+.uploadMessage .scArea .messageTxt textarea{ width:460px; height:75px; border:1px solid #87a2a6; background-color:#fff; resize:none; padding:5px 65px 5px 5px;}
+.uploadMessage .scArea .messageTxt .font-num{ position:absolute; right:0; bottom:0; width:65px; line-height:20px; font-weight:normal; display:block;}
+.uploadMessage .scArea .scSubmit{ height:31px;}
+.uploadMessage .scArea .scSubmit a{ height:31px;}
+.consultationRecord .refund-msg-list { margin-top: 20px; line-height: 24px; color: #666; }
+.refund-msg-list dl { margin-bottom: 16px; }
+.refund-msg-list dt { border-bottom: 1px dotted #D4D4D4; padding-bottom: 10px; margin-bottom: 10px; }
+.refund-msg-list dt strong { color: #333; }
+.refund-msg-list dt .ui-time { color: #999; margin-left: 20px; }
+.refund-msg-list p { margin-bottom: 10px; word-wrap: break-word; color: #333; }
+.rightQuestion { width: 400px; float: right; overflow: hidden; }
+.rightQuestion .rightlist { padding: 5px; width: 390px; overflow: hidden; }
+.rightQuestion .rightlist li { padding-left: 15px; width: 375px; height: 32px; line-height: 32px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; background: url(../images/questionIcon.gif) no-repeat left center; }
+.modifyRefund { padding: 15px; overflow: hidden; }
+.apply-main { padding: 10px 0px 0px 20px; }
+.fn-tab { border-bottom: 2px solid #e16426; overflow: hidden; }
+.tab-entry { float: left; margin-right: 1px; background: #ece5e1; color: #595959; height: 25px; line-height: 25px; padding: 0px 15px; }
+.tab-entry.active { font-weight: 700; }
+.tab-entry.active, .tab-entry:hover { text-decoration: none; background: #e16426; color: #FFF; }
+.field-bd .text, .field-bd .text-m, .field-bd .text-l { border: 1px solid #7E9DB7; height: 18px; line-height: 18px; padding: 2px; }
+.refundResult { padding: 20px; font-size: 20px; }
+.refundResult .result-txt { padding: 30px 80px 10px 80px; position: relative; }
+.refundResult .result-txt .czTipsIcon { position: absolute; left: 20px; top: 30px; width: 40px; height: 40px; background: url(../images/refundResultIcon.png) no-repeat 0 0; }
+.refundResult .result-txt .sbTipsIcon {position: absolute; left: 20px; top: 30px; width: 40px; height: 40px; background: url("../images/refundResultIcon.png") no-repeat 0px -44px;}
+.refundResult .result-txt .wz1 { font-size: 22px; color: #2c2c2c; margin-bottom: 30px; display: block; font-weight: bold; }
+.refundResult .result-txt .wz2 { color: #777; font-size: 18px; line-height: 32px; padding-left: 15px; display: block; background: url(../images/questionIcon.gif) no-repeat left center; margin-bottom: 10px; }
+/*申货退款*/
+.th-box { padding:35px 40px; font-size: 20px; position:relative; }
+.th-box .th-item{ position:relative; padding-left:65px; margin-bottom:30px; width:450px;}
+.th-box .th-item .thTipsIcon { position: absolute; left: 0; top:-5px; width: 40px; height: 40px; background: url(../images/shop_sprite.png) no-repeat 0 -212px; }
+.th-box .th-item p{ display:block; overflow:hidden;}
+.th-box .th-item .wz1 { font-size: 22px; color: #2c2c2c; margin-bottom: 30px; display: block; }
+.th-box .th-item .wz2 { color: #2c2c2c; line-height: 32px; padding-left: 18px; display: block; background: url(../images/refunddot.png) no-repeat left top; margin-bottom: 10px; }
+.th-box .th-item span{ float:left; display:inline-block;}
+.th-box .th-item .th-dz{width:100px;}
+.th-box .th-item .dz-txt{ width:330px;}
+.th-box .th-item .logisticsButton { width: 152px; height: 37px; line-height: 37px; text-align: center; border: 0px none; outline: 0px none; background-color: #e16426; font-size: 18px; color: #fff; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; margin-top:30px;cursor:pointer;}
+.th-box .th-item .logisticsButton:hover { background-color: #d95b1d;}
+/*弹出框*/
+.refundPopWrap { width: 100%; height: 100%; position: absolute; z-index: 9999999; display: none; top: 0; left: 0; }
+.refundPopWrap .refundPopbg { width: 100%; height: 100%; background: #000; opacity: 0.4; -moz-opacity: 0.4; filter: alpha(opacity=40); z-index: 9999900; position: absolute; left: 0; top: 0; }
+.refundPopWrap .refundPopBox { position: absolute; box-shadow: 0 0 2px #fb8b07; -moz-box-shadow: 0 0 2px #fb8b07; -webkit-box-shadow: 0 0 2px #e84f04; z-index: 9999999; }
+.refundPopBox .PopContent { width: 100%; height: 100%; position: relative; z-index: 9999990; }
+.refundPopBox .PopContent .PopContentbg { position: absolute; width: 100%; height: 100%; z-index: 9999905; background: #fff; opacity: 0.3; -moz-opacity: 0.3; filter: alpha(opacity=30); }
+.refundPopBox .PopContent .PopContentBox { position: relative; z-index: 9999990; padding: 15px; }
+.PopContentBox .popup-txt { background-color: #fff; border: 1px solid #918b8b; width: 100%; height: 100%; }
+.popup-txt .popupTitle { height: 50px; line-height: 50px; padding-left: 20px; background-color: #f6f6f6; position: relative; }
+.popup-txt .popupTitle span { font-size: 22px; color: #333; }
+.popup-txt .popupTitle .closePopBtn { display: block; position: absolute; top: 10px; right: 20px; width: 30px; height: 30px; background: url(../images/shop_sprite.png) no-repeat -93px -195px; }
+.popup-txt .popupTitle .closePopBtn:hover { background-position: -60px -195px; }
+.popup-txt .successfulapply { margin: 20px 0 0 50px; color: #666; height: 80px; }
+.popup-txt .successfulapply .successIcon { float: left; width: 40px; height: 40px; background: url("../images/refundResultIcon.png") no-repeat 0px 0px; margin-right: 20px; margin-top: 2px; }
+.popup-txt .successfulapply .failIcon { float: left; width: 40px; height: 40px; background: url("../images/refundResultIcon.png") no-repeat 0px -44px; margin-right: 20px; margin-top: 2px; }
+.popup-txt .successfulapply .warningIcon { float: left; width: 40px; height: 40px; background: url("../images/refundResultIcon.png") no-repeat 0px -88px; margin-right: 20px; margin-top: 2px; }
+.popup-txt .successfulapply .font22 { font-size: 22px; margin-bottom: 15px; }
+.popup-txt .successfulapply .successTxt { float: left; width: 740px; }
+.popup-txt .successfulapply p { display: block; }

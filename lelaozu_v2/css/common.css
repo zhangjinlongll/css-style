@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*common */
+body{ font-family:'Microsoft YaHei','宋体',Arial; background-color:#fff; color:#2a2a2a; font-size:14px; position:relative;}
+body,a,p,ul,li,dt,dl,dd,h1,h2,h3,form,input,textarea,img,ol{list-style:none;margin:0px;padding:0px;}
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+:focus { outline:0; }
+a{color:#2a2a2a; text-decoration:none;}
+a:hover{color:#f36639; text-decoration:none; cursor:pointer;}
+img{ border:none;}
+.blue{ color:#0073f0;}
+.hs{color:#a61313;}
+.red{ color:#ff0000;}
+.yellow{ color:#e96d11;}
+.gray{ color:#888;}
+.wrap{ width:100%;}
+.w1120{ width:1120px; margin:0 auto;}
+.clearfix:before,.clearfix:after{  height:0; line-height:0; visibility:hidden; content:"."; display:block; clear:both;}
+.sbj{ margin-top:20px;}
+.sbj2{ margin-top:15px;}
+.lbj{ margin-right:15px;}
+/* 左侧菜单 */
+.f-leftmenu{ position:fixed; top:0; left:0;width:80px; height:100%;}
+.f-leftmenu .slidetoolbar{ position:relative;width:80px; height:100%;z-index:702;}
+.f-leftmenu .slidetoolbarbg{ position:absolute; top:0; left:0; width:80px; height:100%;background-color:#eaeaea;zoom:1;filter:alpha(opacity=80);-moz-opacity:0.8; opacity:0.8; z-index:700;}
+.slidetoolbar .applist{ position:relative; width:80px; text-align:center; font-size:18px; padding-top:10px;}
+.slidetoolbar .appitem{ position:relative; height:85px; margin-bottom:5px;}
+.slidetoolbar .appitem-hover{ background-color:#fff;}
+.slidetoolbar .appitem .moreapp{ position:absolute; top:-1px; left:80px; width:345px; background-color:#fff; border:1px solid #eaeaea; border-left:none; display:none; height:85px; z-index:600;}
+.slidetoolbar .appitem-hover .moreapp{ display:block;}
+.slidetoolbar .moreapp .morelist{ width:345px; position:relative; height:85px;}
+.slidetoolbar .moreapp .morelist li{ width:115px; height:85px; float:left; display:inline; text-align:center;}
+.slidetoolbar .morelist li .moreicon{display:block; padding-top:58px; height:27px; width:115px; position:relative; color:#282828;}
+.slidetoolbar .morelist li .moreicon:hover{ color:#ff9601;}
+.slidetoolbar .morelist li .moreicon .moreicon-0{ width:50px; height:50px; top:5px; left:32px; background:url(../images/icon_apps01.png) no-repeat 0 -311px; position:absolute;}
+.slidetoolbar .morelist li .moreicon .moreicon-1{ width:50px; height:50px; top:5px; left:32px; background:url(../images/icon_apps01.png) no-repeat 0 -363px; position:absolute;}
+.slidetoolbar .morelist li .moreicon .moreicon-2{ width:50px; height:50px; top:5px; left:32px; background:url(../images/icon_apps01.png) no-repeat 0 -415px; position:absolute;}
+.slidetoolbar .icon{ display:block; padding-top:58px; height:27px; width:80px; position:relative; color:#282828;}
+.slidetoolbar .icon:hover{ background-color:#fff; color:#282828;}
+.slidetoolbar .icon .appicon{ position:absolute; top:5px; width:50px; height:50px; left:15px;  background-image:url(../images/icon_apps01.png); background-repeat:no-repeat; display:block;}
+.slidetoolbar .icon .appicon-0{ background-position:0 0;}
+.slidetoolbar .icon .appicon-1{ background-position:0 -52px;}
+.slidetoolbar .icon .appicon-2{ background-position:0 -104px;}
+.slidetoolbar .icon .appicon-3{ background-position:0 -155px;}
+.slidetoolbar .icon .appicon-4{ background-position:0 -207px;}
+.slidetoolbar .icon .appicon-5{ background-position:0 -259px;}
+.slidetoolbar-closebtn{ position:absolute; display:block; width:80px;left:0; height:65px;bottom:0; z-index:1000;}
+.slidetoolbar-closebtn:hover{ background-color:#fff;}
+.slidetoolbar-close{ background:url(../images/icon_apps01.png) no-repeat 15px -475px #eee;}
+.slidetoolbar-open{ background:url(../images/icon_apps01.png) no-repeat 15px -539px #eee;}
+.p-top{ padding:10px 0 20px 0; height:102px;}
+.p-top .p-logo{ width:125px; height:102px; float:left; margin-right:22px;}
+.p-top .p-name{ width:300px; float:left; margin-top:52px; height:50px; line-height:50px; font-size:50px; color:#3b95d3; font-weight:normal;}
+.p-top .p-wellcome{ width:400px; float:right; margin-top:63px; height:40px; line-height:40px; color:#0073f0; font-size:30px; text-align:right;}
+.p-top .p-wellcome .exit-btn{ display:inline-block;height:38px; line-height:38px; border:1px solid #7e5009; background-color:#a3690f; color:#fff;border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; width:78px; text-align:center; margin-left:30px;}
+/*foot*/   
+.footer{ text-align:center; padding-bottom:50px;line-height:30px;}
+/*网站正在建设*/
+.construct{ background:url(../images/constructionbg.png) no-repeat top center; height:1080px;}
+.w1000{ width:1000px; margin:0 auto;}
+.role-top{ padding:30px 0 13px 0; height:80px; position:relative;}
+.role-top .top-logo{ width:95px; height:80px; float:left; margin-right:8px;}
+.role-top .top-name{ float:left; width:300px; color:#f36639; font-size:24px; padding-top:48px; height:30px; line-height:30px; font-weight:bold;}

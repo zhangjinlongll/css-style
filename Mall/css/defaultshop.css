@@ -1,0 +1,176 @@
+@charset "utf-8";
+/*店铺抬头*/
+.tb-shop .shop-logo { width: 100%; max-height: 165px; }
+/*店铺导航*/
+.tb-shop .shop-nav { width: 100%; height: 40px; background-color: #d13936; line-height: 40px; font-size: 20px; }
+.shop-nav .shop-category { width: 240px; height: 40px; float: left; z-index: 9999; position: relative; }
+.shop-category .allbtn { z-index: 99999; position: relative; }
+.shop-category .allbtn h2 { width: 100%; height: 40px; font-size: 20px; }
+.shop-category .allbtn h2 a { display: block; background-color: #000; height: 40px; line-height: 40px; padding-left: 20px; width: 220px; color: #fff; font-weight: normal; }
+.shop-category .allbtn .fl-list { z-index: 99999; position: absolute; width: 240px; display:none; top: 40px; left: 0px; }
+.shop-category .allbtn-hover .fl-list { display: block; }
+.fl-list .fl-box { position: relative; width: 100%; height: 100%; z-index: 99999; background-color: #d13936; }
+.fl-box li { padding: 8px 8px 8px 36px; font-size: 20px; position: relative; border-bottom: 1px solid #b3312e; border-top: 1px solid #dc4743; background-color: #d13936; }
+.fl-box li.fl-hover { background-color: #fff; }
+.fl-box li a { color: #fff; }
+.fl-box li.fl-hover a { color: #333; }
+.fl-box li a:hover { color: #333; }
+.fl-box li i { width: 20px; height: 40px; display: block; position: absolute; top: 15px; left: 10px; background-position: top center; background-repeat: no-repeat; }
+.fl-box li i.sort1 { background-image: url(../shop/images/productsort_icon.png); }
+.fl-box li.fl-hover i.sort1 { background-image: url(../shop/images/productsort_icon_hover.png); }
+.fl-box li .first-sort { font-size: 20px; line-height: 30px; height: 30px; }
+.fl-box li .second-sort { font-size: 18px; line-height: 30px; }
+.fl-box li .second-sort a { margin-right: 15px; white-space: nowrap; overflow: hidden; }
+.fl-box .pop { position: absolute; top: 0; left: 240px; width: 560px; min-height: 368px; border: 1px solid #d13936; border-left: 0px none; font-size: 16px; line-height: 25px; z-index: 99999; background-color: #fff; padding: 10px 20px; display: none; }
+.fl-box .pop dl { padding: 8px 0; color: #2b2b2b; width: 100%; overflow: hidden; border-bottom: 1px dashed #999; }
+.fl-box .pop dl dt { padding-left: 20px; background: url(../shop/images/shopsort_dot.gif) no-repeat left center; line-height: 30px; height: 24px; line-height: 24px; margin-bottom: 10px; }
+.fl-box .pop dd { width: 100%; line-height: 24px; overflow: hidden; }
+.fl-box .pop dd a { color: #666; margin-right: 30px; white-space: nowrap; padding: 3px 0; display: inline-block; }
+.shop-nav .nav-list { float: right; width: 951px; height: 40px; }
+.shop-nav .nav-list li { float: left; }
+.shop-nav .nav-list li a { display: block; padding: 0 20px; color: #fff; height: 40px; }
+.shop-nav .nav-list li a.on, .shop-nav .nav-list li a:hover { background-color: #a41917; }
+/*店铺横幅*/
+.shopBanner { width: 100%; background-color: #fff; height: 560px; position: relative; overflow: hidden; }
+.shopBanner .shopTopsearch { height: 40px; width: 1191px; margin: 0 auto; background-color: #ebebeb; }
+.shopTopsearch .shopKeyword { width: 700px; float: left; line-height: 40px; font-size: 16px; color: #666; padding-left: 20px; overflow: hidden; }
+.shopTopsearch .shopKeyword a { margin-right: 10px; }
+.shopTopsearch .searchArea { width: 302px; float: right; margin-top: 2px; height: 36px; position: relative; }
+.shopTopsearch .searchArea span { float: left; display: inline-block; }
+.shopTopsearch .searchArea .keyword-input { border: 2px solid #d13936; height: 32px; line-height: 32px; background-color: #fff; width: 235px; padding-left: 5px; font-size: 16px; *margin-top:-1px;
+}
+.shopTopsearch .searchArea .defaultbtn { width: 58px; height: 36px; font-size: 18px; border: 0px none; letter-spacing: 0; color: #fff; cursor: pointer; font-family: "微软雅黑", arial, "宋体"; background-color: #d13936; letter-spacing: 5px; }
+.shopBanner .shopNotice { height: 40px; width: 1171px; margin: 0 auto; background-color: #ff8533; padding-left: 20px; overflow: hidden; }
+.shopBanner .shopNotice .noticeContent { color: #fff; font-size: 20px; background: url(../shop/images/shopnotice_icon.png) no-repeat left center; padding-left: 35px; height: 40px; line-height: 40px; }
+.shopBanner .bannerBox { width: 100%; position: relative; height: 480px; overflow: hidden; }
+.shopBanner .bannerBox li { position: absolute; left: 0; top: 0; height: 100%; width: 100%; background-position: top center; background-repeat: no-repeat; }
+.shopBanner .bannerBox .banner-dot { position: absolute; bottom: 30px; width: 270px; height: 24px; line-height: 24px; left: 50%; margin-left: -135px; }
+.shopBanner .bannerBox .banner-dot a { display: inline-block; width: 24px; height: 24px; text-align: center; color: #000; background: url(../shop/images/banner_dotbg.png) no-repeat -25px 0; margin-right: 30px; }
+.shopBanner .bannerBox .banner-dot a.on, .shopBanner .bannerBox .banner-dot a:hover { color: #fff; background: url(../shop/images/banner_dotbg.png) no-repeat 0 0; }
+/*店铺内容区域*/
+.shopContentWrap { background-color: #f5f5f5; width: 100%; padding-bottom: 30px; overflow: hidden; }
+.shopContentWrap .shopcenter { width: 1191px; margin: 0 auto; }
+.shopContentWrap .allmoduleBox { padding-top: 60px; }
+/*通栏客服*/
+.shopContentWrap .allserviceWrap { height: 144px; width: 100%; }
+.allserviceWrap .allservice-left { width: 242px; height: 144px; float: left; margin-right: 5px; }
+.allserviceWrap .allserviceBox { width: 624px; height: 144px; margin-right: 5px; background-color: #fff; float: left; }
+.allserviceWrap .allserviceBox .topServicefl { width: 100%; border-bottom: 1px solid #c2c2c2; font-size: 18px; height: 43px; line-height: 43px; text-align: center; color: #333; }
+.allserviceWrap .allserviceBox .serviceList { width: 100%; height: 100px; }
+.allserviceBox .serviceList li { width: 86px; margin: 18px 35px 0 35px; height: 76px; vertical-align: middle; float: left; display: inline; }
+.allserviceBox .serviceList li span { float: left; display: inline-block; }
+.allserviceBox .serviceList li span p { display: block; width: 100%; }
+.allserviceBox .serviceList li span p.tx { width: 42px; height: 46px; }
+.allserviceBox .serviceList li .scr-photo { width: 42px; height: 76px; text-align: center; line-height: 30px; color: #333; margin-right: 12px; }
+.allserviceBox .serviceList li .scr-photo img { margin-bottom: 6px; }
+.allserviceBox .serviceList li .scr-state { width: 32px; margin-top: 20px; height: 33px; }
+.allserviceBox .serviceList li .scr-state a { display: block; width: 32px; height: 33px; background: url(../shop/images/ww-state.png) no-repeat; }
+.allserviceBox .serviceList li .scr-state a.ww-online { background-position: 0 0; }
+.allserviceBox .serviceList li .scr-state a.ww-offline { background-position: 0 -36px; }
+.allserviceWrap .after-sale { width: 315px; margin-right: 0; }
+/*通栏产品促销模块*/
+.shopContentWrap .salePromotion { width: 100%; overflow: hidden; }
+.salePromotion .salePromotion-title { height: 50px; line-height: 50px; margin-bottom: 20px; }
+.salePromotion .salePromotion-title h1 { font-size: 36px; height: 50px; color: #333; float: left; width: 600px; font-weight: bold; }
+.salePromotion .salePromotion-title .more-link { font-size: 24px; color: #d13936; display: inline-block; height: 50px; float: right; width: 100px; text-align: right; }
+/*店铺左右模块*/
+.shopContentWrap { position: relative; z-index: 0; }
+.groupWrapper .groupItem { position: relative; margin-bottom: 20px; }
+.groupWrapper .groupItem .shopIntroTitle { border: 1px solid #d6d6d6; height: 60px; line-height: 60px; border-bottom: 0px none; font-size: 20px; padding-left: 10px; background-color: #fafafa; }
+.shopIntroTitle span { display: inline-block; float: left; }
+.shopIntroTitle .ww-state { margin-top: 13px; margin-left: 10px; width: 32px; height: 33px; }
+.shopIntroTitle .ww-state a { display: block; width: 32px; height: 33px; background: url(../shop/images/ww-state.png) no-repeat; }
+.shopIntroTitle .ww-state a.ww-online { background-position: 0 0; }
+.shopIntroTitle .ww-state a.ww-offline { background-position: 0 -36px; }
+.shopbt { overflow: hidden; clear: both; width: 1191px; }
+.groupItem .itemContent { border: 1px solid #d6d6d6; background-color: #fff; font-size: 18px; }
+.sub-box-bj { padding: 10px; }
+.groupWrapper .groupItem .shopdsr { color: #999; margin-bottom: 5px; }
+.groupWrapper .groupItem .shopdsr-con { width: 205px; margin: 0 auto; font-size: 16px; height: 24px; line-height: 24px; color: #4c4c4c; }
+.groupWrapper .groupItem .shopdsr-con .score-num { color: #D13936; padding: 0px 5px 0px 8px; }
+.groupWrapper .groupItem .shop-ages { margin-top: 15px; height: 32px; line-height: 32px; }
+.groupWrapper .groupItem .shop-ages span { float: left; display: inline-block; }
+.groupWrapper .groupItem .shop-ages span.ages-txt { margin: 0 15px; width: 32px; height: 32px; line-height: 32px; text-align: center; color: #fff600; font-size: 16px; background: url(../shop/images/shoptime_bg.jpg) no-repeat; }
+.groupWrapper .groupItem .shopBtn { margin-top: 35px; width: 100%; overflow: hidden; height: 38px; line-height: 38px; text-align: center; margin-bottom: 20px; }
+.groupWrapper .groupItem .shopBtn a { display: inline-block; width: 90px; height: 38px; color: #fff; }
+.groupWrapper .groupItem .shopBtn a.enter-shop { background-color: #000; margin-right: 20px; }
+.groupWrapper .groupItem .shopBtn a.collect-shop { background-color: #d13936; }
+.groupWrapper .groupItem .shopBtn a:hover { color: #fff; }
+.sub-box-hd { padding-left: 10px; height: 38px; line-height: 38px; font-size: 20px; font-weight: bold; color: #fff; background-color: #d13936; }
+.groupWrapper .leftSearch { width: 100%; }
+.groupWrapper .leftSearch li { margin: 20px 0 0 10px; height: 38px; line-height: 38px; }
+.groupWrapper .leftSearch li .leftSearch-bt { width: 62px; height: 38px; line-height: 38px; display: inline-block; }
+.groupWrapper .leftSearch li .key-input { width: 150px; padding-left: 3px; border: 1px solid #999; background-color: #fff; height: 36px; line-height: 36px; display: inline-block; }
+.groupWrapper .leftSearch li .price-input { width: 51px; padding-left: 15px; border: 1px solid #999; background-color: #fff; height: 36px; line-height: 36px; display: inline-block; background: url(../shop/images/rmb_icon.gif) no-repeat 3px center; }
+.groupWrapper .leftSearch li.leftSearch-submit { margin: 30px 0 20px 72px; width: 95px; height: 36px; }
+.groupWrapper .leftSearch li.leftSearch-submit .leftSearch-submitBtn { width: 95px; height: 36px; font-size: 18px; border: 0px none; letter-spacing: 0; color: #fff; cursor: pointer; font-family: "微软雅黑", arial, "宋体"; background-color: #000; letter-spacing: 5px; }
+.groupWrapper .leftSearch li.recommend-keyword { margin-bottom: 10px; height: 38px; text-align: center; width: 100%; overflow: hidden; }
+.groupWrapper .leftSearch li.recommend-keyword a { margin-right: 10px; }
+.groupWrapper .leftService-bt { background-color: #fafafa; border-bottom: 1px solid #d6d6d6; color: #333; height: 35px; line-height: 35px; padding-left: 10px; }
+.groupWrapper .leftService-box { padding: 10px; overflow: hidden; }
+.groupWrapper .leftService-box p { padding: 5px 0; display: block; overflow: hidden; }
+.groupWrapper .leftService-box span { display: inline-block; float: left; line-height: 40px; }
+.groupWrapper .leftService-box img { height: 40px; margin-right: 5px; }
+.groupWrapper .leftService-box .contact-online { display: inline-block; margin-left: 19px; width: 110px; height: 31px; background: url(../shop/images/contact.png) no-repeat 0 0; margin-top: 5px; }
+.groupWrapper .leftService-box .contact-offline { display: inline-block; margin-left: 19px; width: 110px; height: 31px; background: url(../shop/images/contact.png) no-repeat 0 -34px; margin-top: 5px; }
+.groupWrapper .leftService-sbj { border-top: 1px solid #d6d6d6; }
+.groupWrapper .gh { padding: 10px 0 10px 50px; border-bottom: 1px dashed #d6d6d6; line-height: 28px; font-size: 20px; position: relative; }
+.groupWrapper .gh i { width: 28px; height: 28px; left: 5px; top: 10px; background: url(../shop/images/hotline_icon.png) no-repeat -1px -1px; position: absolute; display: block; }
+.groupWrapper .sj { padding: 10px 0 10px 50px; line-height: 28px; font-size: 20px; position: relative; }
+.groupWrapper .sj i { width: 28px; height: 28px; left: 5px; top: 10px; background: url(../shop/images/hotline_icon.png) no-repeat -1px -50px; position: absolute; display: block; }
+.groupWrapper .leftSortbox { padding-bottom: 10px; }
+.groupWrapper .leftSortbox li { border-bottom: 1px solid #d6d6d6; background-color: #fff; height: 38px; overflow: hidden; }
+.groupWrapper .leftSortbox li .first-bt { display: block; padding-left: 22px; background: url(../shop/images/flod_sorticon.png) no-repeat left center; height: 38px; line-height: 38px; color: #333; margin-left: 10px; }
+.groupWrapper .leftSortbox li .first-bt:hover { color: #d13936; }
+.groupWrapper .leftSortbox li.unflod { background-color: #e6e6e6; height: auto; overflow: hidden; }
+.groupWrapper .leftSortbox li.unflod .first-bt { background: url(../shop/images/unflod_sorticon.png) no-repeat left center; background-color: #e6e6e6; }
+.groupWrapper .leftSortbox li ul { padding-left: 30px; line-height: 32px; font-size: 16px; border-top: 1px solid #d6d6d6; background-color: #fff; }
+.groupWrapper .leftSortbox li ul li { border-bottom: 0px none; height: 32px; padding-left: 15px; background:url(../shop/images/submenu_dot.gif) no-repeat left center;}
+.groupWrapper .leftSortbox li ul li.on,.groupWrapper .leftSortbox li ul li:hover{background:url(../shop/images/submenu_dot_hover.gif) no-repeat left center;}
+.groupWrapper .leftSortbox li .sort-px { height: 32px; line-height: 32px; font-size: 16px; border-top: 1px solid #d6d6d6; background-color: #fff; }
+.groupWrapper .leftSortbox li .sort-px a { margin: 0 5px; }
+.groupWrapper .leftRanktitle { width: 238px; height: 40px; line-height: 40px; }
+.groupWrapper .leftRanktitle li { float: left; width: 119px; height: 40px; }
+.groupWrapper .leftRanktitle li a { width: 100%; height: 100%; display: block; text-align: center; background-color: #d6d6d6; color: #333; }
+.groupWrapper .leftRanktitle li a:hover, .groupWrapper .leftRanktitle li a.selected { background-color: #fff; color: #333; }
+.groupWrapper .leftRanklist li { padding: 10px; border-bottom: 1px solid #ebebeb; }
+.groupWrapper .leftRanklist li .ranktitle { margin-top: 5px; height: 30px; line-height: 30px; width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-align: center; }
+.groupWrapper .leftRanklist li .rankintro { color: #999; line-height: 30px; width: 100%; overflow: hidden; text-align: center; }
+.groupWrapper .leftRanklist li .rankPic { width: 218px; height: 218px; margin: 5px 0; table-layout: fixed; display: table; }
+.groupWrapper .leftRanklist li .rankPic a { width: 218px; height: 218px; display: table-cell; vertical-align: middle; text-align: center; }
+.groupWrapper .leftRanklist li .rankPic a img { max-width: 218px; max-height: 218px; vertical-align: middle; }
+.groupWrapper .leftRanklist .rankprice { height: 30px; line-height: 30px; overflow: hidden; }
+.groupWrapper .leftRanklist .rankprice .leftRankjg { width: 100px; float: left; color: #d13936; overflow: hidden; }
+.groupWrapper .leftRanklist .rankprice .leftRanknum { float: right; width: 115px; color: #999; text-align: right; overflow: hidden; }
+.groupWrapper .leftRanklist .rankprice .leftRanknum b { font-weight: normal; color: #666; }
+.groupWrapper .leftRanklist li.rank-more { border-bottom: 0px none; padding: 40px; text-align: center; font-size: 20px; font-weight: bold; }
+.groupWrapper .leftRanklist li.rank-more a { color: #d13936; }
+.groupItem .itemHeader .more-link { height: 38px; width: 100px; text-align: right; color: #fff; position: absolute; right: 10px; top: 0; font-size: 16px; margin: 0; padding: 0; }
+.groupItem .itemHeader .more-link:hover { text-decoration: underline; }
+.groupWrapper .rightProductlist { overflow: hidden; width: 100%; font-size: 18px; background-color: #f5f5f5; }
+.rightProductlist li { padding: 10px; background-color: #fff; width: 283px; height: 390px; margin: 5px; float: left; }
+.rightProductlist li .rightTj-pic { width: 283px; height: 283px; margin-bottom: 15px; display: table; table-layout: fixed; background-color: #eaeaea; }
+.rightProductlist li .rightTj-pic a { display: table-cell; vertical-align: middle; text-align: center; width: 283px; height: 283px; }
+.rightProductlist li .rightTj-pic a img { max-height: 283px; max-width: 283px; vertical-align: middle; }
+.rightProductlist li .rightTj-tit { height: 48px; line-height: 24px; width: 100%; overflow: hidden; }
+.rightProductlist li .rightTj-price { margin-top: 15px; height: 24px; line-height: 24px; }
+.rightTj-price .rightTjjg { width: 130px; float: left; color: #d13936; overflow: hidden; font-weight: bold; }
+.rightTj-price .rightTjnum { float: right; width: 130px; color: #999; text-align: right; overflow: hidden; }
+.rightTj-price .rightTjnum b { font-weight: normal; color: #666; }
+.rightProductlist li.none-bj { margin-right: 0; }
+.w1190 { width: 1191px; margin:0 auto;}
+#portal { margin-left: auto; margin-right: auto; margin-top: 50px; }
+.groupWrapper { float: left; min-height: 400px; }
+.groupItem .itemHeader { padding-left: 10px; height: 38px; line-height: 38px; background-color: #D13936; }
+.groupItem .itemHeader a { margin: 10px 0 0; padding: 1px; top: 0; font-size: 11px; font-weight: normal; position: absolute; text-decoration: none; -moz-user-select: none; float: left; width: 16px; height: 16px; }
+.close { background: url("../images/action-close.png") no-repeat scroll 0 0 transparent; right: 0; }
+.refresh { background: url("../images/action-refresh.png") no-repeat scroll 0 0 transparent; right: 32px; }
+.max { background: url("../images/action-max.png") no-repeat scroll 0 0 transparent; right: 16px; }
+.min { background: url("../images/action-min.png") no-repeat scroll 0 0 transparent; right: 16px; }
+.groupItem .itemHeader h3 { font-size: 18px; color: #fff; font-weight: bold; }
+/*黑色主题*/
+.blackTheme .tb-shop .shop-nav { width: 100%; height: 40px; background-color: #000; line-height: 40px; font-size: 20px; }
+.blackTheme .shop-category .allbtn h2 a { display: block; background-color: #000; height: 40px; line-height: 40px; padding-left: 20px; width: 220px; color: #fff; font-weight: normal; }
+.blackTheme .shop-nav .nav-list li a.on,.blackTheme .shop-nav .nav-list li a:hover { background-color: #d13936; }
+.blackTheme .groupItem .itemHeader{ background-color:#000;}
+.blackTheme .groupWrapper .leftSearch li.leftSearch-submit .leftSearch-submitBtn { background-color:#d13936;}

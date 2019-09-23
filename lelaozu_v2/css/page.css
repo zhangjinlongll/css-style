@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*分页*/
+.page {height:44px;}
+.page em{ font-style:normal;}
+.page .p-wrap { float:right;}
+.page .p-num {float: left;}
+.page .p-num .pn-next.disabled, .page .p-num .pn-prev.disabled {
+    background:#eee;
+    cursor: default;
+	color:#999;
+}
+.page .p-num .pn-next.disabled:hover, .page .p-num .pn-prev.disabled:hover{
+    background:#eee;
+    cursor: default;
+	 border: 1px solid #bcbcbc;
+	 color:#999;
+}
+.page .p-num .pn-next:hover, .page .p-num .pn-prev:hover{
+	color:#3b95d3;
+   border:1px solid #3b95d3;
+}
+.page .p-num a {
+    color: #6a6a6a;
+    border: 1px solid #bcbcbc;
+	height:42px;
+	line-height:42px;
+	background-color:#fff;
+}
+.page .p-num a:hover{ border:1px solid #3b95d3;}
+.page .p-num a, .page .p-num b {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    padding: 0px 17px;
+    margin-right:17px;
+    font-size: 22px;
+}
+.page .p-num a.curr {
+    border:1px solid #3b95d3;
+    color:#fff;
+	background:#3b95d3;
+    cursor: default;
+}
+.page .p-num .pn-break {
+    color: #4a4a4a;
+}
+.page .p-num .pn-next i {
+    padding-right: 0px;
+}
+.page .p-num .pn-next i, .page .p-num .pn-prev i {
+    vertical-align: middle;
+    font-style: normal;
+    font-size: 16px;
+    font-family: "宋体";
+    padding: 0px 5px;
+    color: #4a4a4a;
+}
+.page .p-num .pn-next:hover i, .page .p-num .pn-prev:hover i {
+    color: #3b95d3;
+}
+.page .p-skip {
+    float: left;
+    margin-left: 8px;
+	display:inline;
+	color:#666;
+}
+.page .p-skip em {
+    float: left;
+    line-height: 44px;
+    font-size: 22px;
+}
+.page .p-skip .input-txt {
+    float: left;
+    width: 58px;
+    height: 42px;
+    margin: 0px 5px;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+	background-color:#fff;
+	border:1px solid #b3b3b3;
+}
+.page .p-skip .btn {
+    float: left;
+    width: 55px;
+    height: 42px;
+    margin: 0px 5px;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+	background-color:#fff;
+	border:1px solid #b3b3b3;
+	margin-left:10px;
+}
+

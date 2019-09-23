@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*黑色主题*/
+.tb-shop .shop-nav { width: 100%; height: 40px; background-color: #4d4d4d; line-height: 40px; font-size: 20px; }
+.shop-category .allbtn h2 a { display: block; background-color: #4d4d4d; height: 40px; line-height: 40px; padding-left: 20px; width: 220px; color: #fff; font-weight: normal; }
+.shop-nav .nav-list li a.on,.shop-nav .nav-list li a:hover { background-color: #333; }
+
+.fl-list .fl-box{background-color: #f4f4f4; border:1px solid #d6d6d6;border-bottom:0px none;}
+.fl-box li{ border-bottom:1px solid #d6d6d6;}
+.fl-box li.fl-hover { background-color: #fff;}
+.fl-box li a {color: #333;}
+.fl-box li.fl-hover a { color: #333; }
+.fl-box li a:hover { color: #333; }
+.fl-box li i { width: 20px; height: 40px; display: block; position: absolute; top: 15px; left: 10px; background-position: top center; background-repeat: no-repeat; }
+.fl-box li i.sort1 { background-image:url(images/productsort_icon.png); }
+.fl-box li.fl-hover i.sort1 { background-image: url(images/productsort_icon _hover.png);}
+.fl-box li .second-sort a{ color:#666;}
+.fl-box li .second-sort a:hover{ color:#000;}
+.fl-box .pop dl dt{background:url(images/shopsort_dot.gif) no-repeat left center; }
+.fl-box .pop dd a{ color:#666;}
+.fl-box .pop dd a:hover{ color:#000;}
+
+.groupItem .itemHeader{ background-color:#f4f4f4; border:1px solid #d6d6d6; border-bottom:0px none; height:36px; line-height:36px;}
+.groupItem .itemHeader h3{ color:#4d4d4d;}
+.groupItem .itemHeader .more-link{ color:#666;}
+.groupItem .itemHeader .more-link:hover{ color:#000;}
+.groupWrapper .ShopDecoration_leftSearch li.ShopDecoration_leftSearch-submit .ShopDecoration_leftSearch-submitBtn { background-color:#000;}
+.groupWrapper .ShopDecoration_leftRanklist li.rank-more a{ color:#4d4d4d;}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*绿色主题*/
+.tb-shop .shop-nav { width: 100%; height: 40px; background-color: #ff649d; line-height: 40px; font-size: 20px; }
+.shop-category .allbtn h2 a { display: block; background-color: #ff649d; height: 40px; line-height: 40px; padding-left: 20px; width: 220px; color: #fff; font-weight: normal; }
+.shop-nav .nav-list li a.on,.shop-nav .nav-list li a:hover { background-color: #e20b80; }
+
+.fl-list .fl-box{background-color: #f4f4f4; border:1px solid #d6d6d6; border-bottom:0px none;}
+.fl-box li{ border-bottom:1px solid #d6d6d6;}
+.fl-box li.fl-hover { background-color: #fff;}
+.fl-box li a {color: #333;}
+.fl-box li.fl-hover a { color: #e20b80; }
+.fl-box li a:hover { color: #e20b80; }
+.fl-box li i { width: 20px; height: 40px; display: block; position: absolute; top: 15px; left: 10px; background-position: top center; background-repeat: no-repeat; }
+.fl-box li i.sort1 { background-image:url(images/productsort_icon.png); }
+.fl-box li.fl-hover i.sort1 { background-image: url(images/productsort_icon_hover.png);}
+.fl-box li .second-sort a{ color:#666;}
+.fl-box li .second-sort a:hover{ color:#e20b80;}
+.fl-box .pop dl dt{background:url(images/shopsort_dot.gif) no-repeat left center; }
+.fl-box .pop dd a{ color:#666;}
+.fl-box .pop dd a:hover{ color:#e20b80;}
+
+.groupItem .itemHeader{ background-color:#ff649d;}
+.groupItem .itemHeader h3{ color:#fff;}
+.groupItem .itemHeader .more-link{ color:#fff;}
+.groupItem .itemHeader .more-link:hover{ color:#fff; text-decoration:underline;}
+.groupWrapper .ShopDecoration_leftSearch li.ShopDecoration_recommend-keyword a:hover{color: #e20b80;}
+.groupWrapper .ShopDecoration_leftSortbox li .sort-px a:hover{color:#e20b80;}
+.groupWrapper .ShopDecoration_leftSortbox li .ShopDecoration_first-bt:hover{color: #e20b80;}
+.groupWrapper .ShopDecoration_leftSortbox li ul li a:hover{color: #e20b80;}
+.groupWrapper .ShopDecoration_leftSortbox li ul li.on, .groupWrapper .ShopDecoration_leftSortbox li ul li:hover{ background:url(images/submenu_dot_hover.gif) no-repeat left center;}
+.groupWrapper .ShopDecoration_leftSearch li.ShopDecoration_leftSearch-submit .ShopDecoration_leftSearch-submitBtn { background-color:#e20b80;}
+.groupWrapper .ShopDecoration_leftRanklist li .ranktitle a:hover{color: #e20b80;}
+.ShopDecoration_rightProductlist li .ShopDecoration_rightTj-tit a:hover{color: #e20b80;}
+.groupWrapper .ShopDecoration_leftRanklist li.rank-more a{ color:#e20b80;}
