@@ -1,0 +1,16 @@
+baseurl: /cube
+safe: true
+lsi: false
+pygments: true
+markdown: redcarpet
+permalink: /:categories/:title
+encoding: utf-8
+exclude:
+  - CONTRIBUTING.md
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - README.md
+
+version: 1.3.1
+
